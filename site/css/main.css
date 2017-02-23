@@ -1,0 +1,38 @@
+/* Typography  */
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+@font-face {
+  font-family: "Cervo";
+  src: url(cervo.ttf) format("truetype");
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "Cervo", Helvetica, Arial;
+}
+
+body {
+  font-family: "Karla", Helvetica, Arial;
+  background-color: #EAECE7;
+}
+
+/** Header  */
+
+.navbar {
+  background-color: transparent;
+  font-family: "Cervo", Helvetica, Arial;
+  border-bottom:none;
+}
+.navbar-brand {
+  color: #EAECE7;
+  font-size: 24px;
+}
+.navbar-inverse .navbar-brand {
+  color: #EAECE7;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #0C1E3E;
+}
+
+
