@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5 {
 
 body {
   font-family: "Karla", Helvetica, Arial;
-  background-color: #EAECE7;
+  background-color: #FFFFFF;
 }
 
 /** Header  */
@@ -35,4 +35,37 @@ body {
   background-color: #0C1E3E;
 }
 
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
 
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* BACKGROUNDS SLIDER, SECTIONS
+-------------------------------------------------- */
+.header-back {
+  height: 870px;
+  width: 100%;
+}
+.header-back.one {
+  background: url('../images/hero.png') 50% 0 no-repeat;
+}
+
+.services-back {
+  height: 670px;
+  width: 100%;
+}
+.services-back.one {
+  background: url('../images/Services.png') 50% 0 no-repeat;
+}
+
+.values-back {
+  height: 670px;
+  width: 100%;
+}
+.values-back.one {
+  background: url('../images/values.png') 50% 0 no-repeat;
+}
