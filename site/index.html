@@ -12,11 +12,16 @@
     <!-- Bootstrap core CSS, offiline -->
     <link href="css/bootstrap-theme.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
 
+
+    <!-- Custom CSS  -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
     <!-- FONTS google -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Mandali|Quicksand|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Mandali|Quicksand|Source+Sans+Pro|Nunito:200,300,400,500,600,800,900" rel="stylesheet">
 
     <!-- JQauery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -38,10 +43,10 @@
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">OUR VALUES</a></li>
-              <li><a href="#">OUR WORK</a></li>
-              <li><a href="#">SOLUTIONS</a></li>
-              <li><a href="#">CONTACT US</a></li>
+              <li><a class="page-scroll" href="#values">OUR VALUES</a></li>
+              <li><a class="page-scroll" href="#work">OUR WORK</a></li>
+              <li><a class="page-scroll" href="#solutions">SOLUTIONS</a></li>
+              <li><a class="page-scroll" href="#contact">CONTACT US</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -112,7 +117,7 @@
     <!-- Marketing Section End -->
 
     <!-- SERVICES Section start -->
-    <div class="services text-center services-back one ">
+    <div id="solutions" class="services text-center services-back one ">
       <div class="services-content">
           <div class="col-lg-4 ">
                <div class="services-box one">
@@ -195,7 +200,7 @@
     <!--  TEAM end-->
 
     <!-- VALUES start -->
-    <div class="container values-back one">
+    <div id="values" class="container values-back one">
       <div class=" values-content">
 
       <div class="row">
@@ -229,7 +234,7 @@
     <!--  VALUES end-->
 
     <!-- CONTACTUS start -->
-    <div class="contact text-center ">
+    <div id="contact"class="contact text-center ">
         <div class="container contact-box">
           <h2>Contact Us</h2>
           <div class="cred-line"></div>
@@ -334,5 +339,16 @@
     </div>
       </div>
     </footer>
+
+    <!--  CUSTOM Scripts-->
+    <script src="js/index.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('.services-box').each(function() {
+                    animationHover(this, 'pulse');
+                    console.log("this is working");
+                });
+            });
+      </script>
   </body>
 </html>
