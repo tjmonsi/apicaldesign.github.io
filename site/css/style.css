@@ -258,9 +258,7 @@ h1 {
 }
 /* Sections
 ------------------------- */
-.services {
-  padding-top: 60px;
-}
+
 .services h2 {
   font-size: 20px;
   letter-spacing: -1px;
@@ -420,6 +418,17 @@ fieldset[disabled] .btn-primary.active {
   background-color: #1dc5a3;
   border-color: #1dc5a3;
 }
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #ffffff;
+}
+.btn-outline {
+  color: inherit;
+  background-color: transparent;
+  transition: all .5s;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
