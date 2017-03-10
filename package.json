@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^6.7.6",
     "brunch": "^2.4.2",
     "javascript-brunch": "^2.10.0",
+    "postcss-brunch": "^0.5.0",
     "sass-brunch": "^2.10.4"
   }
 }
