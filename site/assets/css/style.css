@@ -101,6 +101,32 @@
     z-index: -8;
   }
 
+/* Elements */
+  .btn {
+    padding: 16px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: background-color 200ms ease;
+    background-color: #70B3B8;
+  }
+
+  .btn:hover{
+    background-color: #7DC9CF;
+  }
+
+  .heading:after {
+    content: '';
+    background-color: #B70303;
+    width: 100%;
+    height: 2px;
+    max-width: 96px;
+    display: block;
+    margin: 36px auto 48px;
+  }
+
 /* Section - Header */
   .header {
     background: rgba(13,33,50,0.4);
@@ -155,10 +181,11 @@
 
 /* Section - Hero */
   .hero-section {
-    height: 800px;
+    height: 100%;
   }
 
   .hero-section > .container {
+    padding: 288px 48px 320px;
     height: 100%;
     align-items: center;
     text-align: center;
@@ -175,13 +202,14 @@
     width: 48px;
   }
 
-  .hero-content > .heading {
-
+  .hero-content > .main-heading {
+    margin-bottom: 24px;
   }
 
   .hero-content > .caption {
     font-size: 19px;
     font-weight: 400;
+    margin-bottom: 24px;
   }
 
   .hero-front,
@@ -247,10 +275,6 @@
     margin: auto;
   }
 
-  .importance-content > .heading {
-    margin-bottom: 48px;
-  }
-
   .importance-content > .row {
     display: flex;
     justify-content: space-between;
@@ -262,7 +286,7 @@
   }
 
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .importance-content > .row > .column {
     flex-basis: 100%;
   }
@@ -311,6 +335,7 @@
   .services-content > .row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .services-content > .row > .column {
@@ -332,14 +357,43 @@
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
+@media screen and (max-width: 640px) {
+  .services-content > .row > .column {
+    flex: 0 1 100%;
+    margin: 0 0 24px;
+  }
+}
+
   .services-card > .image {
     width: 100%;
-    height: 200px;
     background-color: #efefef;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80%;
   }
 
-  .services-card > .content > .heading {
-    margin-bottom: 24px;
+  .services-card > .image-1 {
+    background-image: url(../img/stock/values-1.jpg);
+  }
+
+  .services-card > .image-2 {
+    background-image: url(../img/stock/values-2.jpg);
+  }
+
+  .services-card > .image-3 {
+    background-image: url(../img/stock/values-3.jpg);
+  }
+
+  .services-card > .content {
+    padding: 24px;
+  }
+
+  .services-card > .content > .heading:after {
+    height: 2px;
+    max-width: 48px;
+    display: block;
+    margin: 24px auto 36px;
   }
 
   .services-card > .content > .list {
@@ -347,15 +401,12 @@
     text-align: left;
     line-height: 16px;
     margin-left: 20px;
+    margin-bottom: 36px;
   }
 
   .services-card > .content > .list > .item {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     line-height: 19px;
-  }
-
-  .services-card > .content {
-    padding: 16px;
   }
 
   .services-background {
@@ -415,7 +466,7 @@
 
   .work-section > .container {
     height: 100%;
-    padding: 160px 48px;
+    padding: 144px 48px;
     /*padding:48px for mobile*/
     justify-content: space-between;
     align-items: center;
@@ -425,10 +476,6 @@
     width: 100%;
     text-align: center;
     margin: auto;
-  }
-
-  .work-content > .heading {
-    margin-bottom: 48px;
   }
 
   .company-logos {
@@ -461,8 +508,8 @@
     margin: auto;
   }
 
-  .values-content > .heading {
-    padding-bottom: 48px;
+  .values-content > .heading:after {
+    margin-left: 0;
   }
 
   .values-content > .row {
@@ -475,7 +522,7 @@
     flex: 0 1 48%;
   }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .values-content > .row > .column {
     flex-basis: 100%;
   }
@@ -494,7 +541,7 @@
   }
 
   .values-list > .item {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     line-height: 19px;
   }
 
@@ -533,10 +580,10 @@
 
   .values-front > .front,
   .values-back > .back {
-    height: 135%;
+    height: 150%;
     width: 100%;
     position: absolute;
-    top: -15%;
+    top: -20%;
   }
 
   .values-front > .front {
@@ -570,7 +617,112 @@
 
 /* Section - Footer */
   .footer {
-    margin-bottom: 56px;
+    height: 100%;
+    position: relative;
+  }
+
+  .footer > .container {
+    padding: 480px 48px 80px;
+  }
+
+  .footer > .container > .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #ffffff;
+  }
+
+  .footer > .container > .row > .column:nth-child(1),
+  .footer > .container > .row > .column:nth-child(2) {
+    flex: 0 1 24%;
+  }
+
+  .footer > .container > .row > .column:nth-child(3) {
+    flex: 0 1 49%;
+  }
+
+  .footer-links > .item {
+    margin-bottom: 12px;
+  }
+
+  .subscription-heading {
+    margin-bottom: 8px;
+  }
+
+  .subscription-caption {
+    margin-bottom: 16px;
+  }
+
+  .subscription-textbox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscription-input {
+    flex: 0 1 75%;
+    height: 100%;
+  }
+
+  .subscription-input > input {
+    padding: 16px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+  }
+
+  .subscription-submit {
+    flex: 0 1 25%;
+  }
+
+@media screen and (max-width: 640px) {
+  .footer > .container > .row > .column:nth-child(1),
+  .footer > .container > .row > .column:nth-child(2) {
+    flex: 0 1 50%;
+    margin-bottom: 24px;
+  }
+
+  .footer > .container > .row > .column:nth-child(3) {
+    flex: 0 1 100%;
+  }
+}
+
+  .subscription-submit {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .footer-background {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .footer-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    bottom: -20%;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .footer-back > .back {
+    height: 125%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #0D2132;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
   }
 
 /* Section - Bonus */
