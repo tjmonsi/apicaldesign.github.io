@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Apical Design</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
     <div class="header">
@@ -62,19 +62,19 @@
           <div class="row">
             <div class="column">
               <div class="importance-card">
-                <i class="icon"></i>
+                <div class="icon icon-1"></div>
                 <p class="caption">ROI of up to 100$ for every $1 invested in UX.</p>
               </div>
             </div>
             <div class="column">
               <div class="importance-card">
-                <i class="icon"></i>
+                <div class="icon icon-2"></div>
                 <p class="caption">Increase both brand loyalty and conversion.</p>
               </div>
             </div>
             <div class="column">
               <div class="importance-card">
-                <i class="icon"></i>
+                <div class="icon icon-3"></div>
                 <p class="caption">Reduce development costs by 50%.</p>
               </div>
             </div>
@@ -86,43 +86,43 @@
       <div class="container">
         <div class="services-content">
           <div class="row">
-            <div class="column">
+            <div class="column services-column-1">
               <div class="services-card">
                 <div class="image"></div>
                 <div class="content">
                   <h4 class="heading">User Experience<br/> Reviews</h4>
                   <ul class="list">
-                    <li class="item">1</li>
-                    <li class="item">2</li>
-                    <li class="item">3</li>
+                    <li class="item">Have your product tested and reviewed by us.</li>
+                    <li class="item">Let us help you improve your product through iteration.</li>
+                    <li class="item">Finding what’s missing is our job so let us do the dirty work.</li>
                   </ul>
                   <div class="call-to-action">Inquire for a Review</div>
                 </div>
               </div>
             </div>
-            <div class="column">
+            <div class="column services-column-2">
               <div class="services-card">
                 <div class="image"></div>
                 <div class="content">
                   <h4 class="heading">Design<br/> Solutions</h4>
                   <ul class="list">
-                    <li class="item">1</li>
-                    <li class="item">2</li>
-                    <li class="item">3</li>
+                    <li class="item">Have your product tested and reviewed by us.</li>
+                    <li class="item">Let us help you improve your product through iteration.</li>
+                    <li class="item">Finding what’s missing is our job so let us do the dirty work.</li>
                   </ul>
                   <div class="call-to-action">Inquire for a Review</div>
                 </div>
               </div>
             </div>
-            <div class="column">
+            <div class="column services-column-3">
               <div class="services-card">
                 <div class="image"></div>
                 <div class="content">
                   <h4 class="heading">Research<br/> Solution</h4>
                   <ul class="list">
-                    <li class="item">1</li>
-                    <li class="item">2</li>
-                    <li class="item">3</li>
+                    <li class="item">Have your product tested and reviewed by us.</li>
+                    <li class="item">Let us help you improve your product through iteration.</li>
+                    <li class="item">Finding what’s missing is our job so let us do the dirty work.</li>
                   </ul>
                   <div class="call-to-action">Inquire for a Review</div>
                 </div>
@@ -145,10 +145,18 @@
         <div class="work-content">
           <h3 class="heading">We Come from Amazing Companies</h3>
           <ul class="company-logos">
-            <li class="company-logo">1</li>
-            <li class="company-logo">2</li>
-            <li class="company-logo">3</li>
-            <li class="company-logo">4</li>
+            <li class="company-logo">
+              <img src="assets/img/logos/lexus.png">
+            </li>
+            <li class="company-logo">
+              <img src="assets/img/logos/olx.png">
+              </li>
+            <li class="company-logo">
+              <img src="assets/img/logos/uxpin.png">
+              </li>
+            <li class="company-logo">
+              <img src="assets/img/logos/uap.png">
+              </li>
           </ul>
         </div>
       </div>
@@ -159,16 +167,23 @@
           <h2 class="heading">Our Values</h2>
           <div class="row">
             <div class="column">
-              <p class="paragraph"></p>
+              <p class="values-paragraph">
+                Thank you for considering us.
+              </p>
+              <p class="values-paragraph">
+                The word &ldquo;Apical&rdquo; means something that is at the peak. Much like our name, we look forward to delivering the absolute best.
+              </p>
             </div>
             <div class="column">
-              <p class="paragraph"></p>
-              <ul class="list">
-                <li class="item">1</li>
-                <li class="item">2</li>
-                <li class="item">3</li>
-                <li class="item">4</li>
-                <li class="item">5</li>
+              <p class="values-paragraph">
+                If you decide to choose us in leading your next great design, here are our promises to you:
+              </p>
+              <ul class="values-list">
+                <li class="item">Quality work. Every time.</li>
+                <li class="item">Honesty and transparency</li>
+                <li class="item">Simple pricing. No hidden fees.</li>
+                <li class="item">A team that cares about your users and your success.</li>
+                <li class="item">An experience your users will <span>love.</span></li>
               </ul>
             </div>
           </div>
@@ -255,6 +270,27 @@
             </ul>
           </div>
           <div class="column">
+          <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup" class="subscription-box">
+              <h4 class="heading">Join our newsletter!</h4>
+              <h6 class="subheading">We give free tips and insider news about our projects. Join our mailing list to learn more about our activity.</h6>
+              <form action="//apicaldesign.us15.list-manage.com/subscribe/post?u=0bbf810f896a9947498972e17&amp;id=ab502b03a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address </label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>   
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0bbf810f896a9947498972e17_ab502b03a0" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+              </form>
+            </div>
+
+            <!-- End mc_embed_signup 
             <div class="subscription-box">
               <h4 class="heading">Join our newsletter!</h4>
               <h6 class="subheading">We give free tips and insider news about our projects. Join our mailing list to learn more about our activity.</h6>
@@ -263,6 +299,7 @@
                 <button class="submit" type="submit">Join</button>
               </form>
             </div>
+            -->
           </div>
         </div>
       </div>
