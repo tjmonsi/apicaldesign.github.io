@@ -203,38 +203,45 @@
         <div class="contactform-content">
           <h3 class="heading">Let's have a talk!</h3>
           <h6 class="subheading">
-            Do you need any help in UX? Schedule a meeting with us so we can kick things off.
+            Do you need any help in UX?
+            Schedule a meeting with us so we can kick things off.
           </h6>
-          <form class="form">
-            <div class="column">
-              <div class="input">
-                <label class="label">Name</label>
-                <input class="input" placeholder="e.g. Elymar Apao" type="text"></input>
+          <form class="contactform-form">
+            <div class="row">
+              <div class="column">
+                <div class="contactform-input">
+                  <label class="label">Name</label>
+                  <input class="input" placeholder="e.g. Elymar Apao" type="text"></input>
+                </div>
+                <div class="contactform-input">
+                  <label class="label">Email</label>
+                  <input class="input" placeholder="e.g. ely@apicaldesign.com" type="text"></input>
+                </div>
+                <div class="contactform-input">
+                  <label class="label">Company</label>
+                  <input class="input" placeholder="e.g. Apical Design" type="text"></input>
+                </div>
               </div>
-              <div class="input">
-                <label class="label">Email</label>
-                <input class="input" placeholder="e.g. ely@apicaldesign.com" type="text"></input>
-              </div>
-              <div class="input">
-                <label class="label">Company</label>
-                <input class="input" placeholder="e.g. Apical Design" type="text"></input>
+              <div class="column">
+                <div class="contactform-input">
+                  <label class="label">Services</label>
+                  <select class="select">
+                    <option>User Experience Reviews</option>
+                    <option>Design Solutions</option>
+                    <option>Research Solutions</option>
+                    <option>Team Assistance</option>
+                    <option>Others</option>
+                  </select>
+                </div>
+                <div class="contactform-input">
+                  <label class="label">Message</label>
+                  <textarea class="textarea" placeholder="Is there anything that you want us to know about your current problem? " type="paragraph"></textarea>
+                </div>
               </div>
             </div>
-            <div class="column">
-              <div class="input">
-                <label class="label">Services</label>
-                <select class="select">
-                  <option>User Experience Reviews</option>
-                  <option>Design Solutions</option>
-                  <option>Research Solutions</option>
-                </select>
-              </div>
-              <div class="input">
-                <label class="label">Message</label>
-                <input class="input" placeholder="Is there anything that you want us to know about your current problem? " type="paragraph"></input>
-              </div>
+            <div class="row">
+              <button class="submit btn contactform-submit" type="submit">Schedule for a Meeting</button>
             </div>
-            <button class="submit" type="submit">Schedule for a Meeting</button>
           </form>
         </div>
       </div>
