@@ -101,6 +101,13 @@
     z-index: -8;
   }
 
+@media screen and (max-width: 640px) {
+  .container {
+    padding-left: 24px!important;
+    padding-right: 24px!important;
+  }
+}
+
 /* Elements */
   .btn {
     padding: 16px;
@@ -239,7 +246,6 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 10%;
   }
 
   .hero-front > .front {
@@ -249,12 +255,12 @@
     background-size: cover;
     -webkit-transform: skewY(5deg);
     transform: skewY(5deg);
+    top: 10%;
   }
 
   .hero-back > .back {
     background-color: #70B3B8;
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    top: 0;
   }
 
 /* Section - Importance */
@@ -357,7 +363,7 @@
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
   .services-content > .row > .column {
     flex: 0 1 100%;
     margin: 0 0 24px;
@@ -440,22 +446,18 @@
 
   .services-front > .front,
   .services-back > .back {
-    height: 150%;
+    height: 100%;
     width: 100%;
     position: absolute;
-    top: -20%;
+    top: 0;
   }
 
   .services-front > .front {
     background-color: #70B3B8;
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
   }
 
   .services-back > .back {
     background-color: #0D2132;
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
   }
 
 /* Section - Work */
@@ -496,7 +498,7 @@
   }
 
   .values-section > .container {
-    padding: 160px 48px 180px;
+    padding: 64px 48px;
     height: 100%;
     justify-content: space-around;
     align-content: center;
@@ -558,21 +560,21 @@
 
   .values-front,
   .values-back {
-    height: 75%;
+    height: 100%;
     width: 100%;
     position: absolute;
     overflow: hidden;
   }
 
   .values-front {
-    top: 80px;
+    top: 0;
     z-index: -8;
     -webkit-transform: skewY(5deg);
     transform: skewY(5deg);
   }
 
   .values-back {
-    top: 96px;
+    top: 16px;
     z-index: -16;
     -webkit-transform: skewY(-5deg);
     transform: skewY(-5deg);
@@ -580,22 +582,18 @@
 
   .values-front > .front,
   .values-back > .back {
-    height: 150%;
+    height: 100%;
     width: 100%;
     position: absolute;
-    top: -20%;
+    top: 0;
   }
 
   .values-front > .front {
     background-color: #0D2132;
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
   }
 
   .values-back > .back {
     background-color: #70B3B8;
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
   }
 
 /* Section - Contact Form */
@@ -614,6 +612,75 @@
     margin: auto;
   }
 
+/* Section - Location */  
+  .locations-section {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 100%;
+    justify-content: space-around;
+    transform: skewY(5deg);
+  }
+
+  .location-card {
+    position: relative;
+    padding: 160px 0;
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: space-around;
+    transform: skewY(-5deg);
+  }
+
+@media screen and (max-width: 640px) {
+  .location-card {
+    flex-basis: 100%;
+  }
+}
+
+  .location-heading {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .location-background {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: skewY(5deg);
+  }
+
+  .location-background-1 {
+    background-color: #666666;
+  }
+
+  .location-background-1:before,
+  .location-background-2:before {
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    top: -7.5%;
+    left: -7.5%;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    transform: skewY(-5deg);
+  }
+
+  .location-background-2 {
+    background-color: #333333;
+  }
+
+  .location-background-1:before {
+    background-image: url(../img/stock/locations-1.jpg);
+  }
+  .location-background-2:before {
+    background-image: url(../img/stock/locations-2.jpg);
+  }
 
 /* Section - Footer */
   .footer {
@@ -622,7 +689,7 @@
   }
 
   .footer > .container {
-    padding: 480px 48px 80px;
+    padding: 80px 48px;
   }
 
   .footer > .container > .row {
@@ -642,7 +709,7 @@
   }
 
   .footer-links > .item {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
   }
 
   .subscription-heading {
@@ -698,7 +765,7 @@
 
   .footer-background {
     overflow: hidden;
-    height: 100%;
+    height: 125%;
     width: 100%;
     position: absolute;
     bottom: 0;
