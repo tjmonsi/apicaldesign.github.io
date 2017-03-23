@@ -8,26 +8,30 @@
   <body>
     <div class="header">
       <div class="container">
-        <div class="logo">
-          <img src="">
+        <a href="#" class="logo">
+        </a>
+        <div class="navigation">
+          <button class="nav-button" onclick="toggleMenu()">
+            <span class="hamburger"></span>
+          </button>
+          <ul class="nav-options" id="nav">
+            <li class="option">
+              <a class="nav-link" href="#importance">About</a>
+            </li>
+            <li class="option">
+              <a class="nav-link" href="#services">Our Services</a>
+            </li>
+            <li class="option">
+              <a class="nav-link" href="#work">Our Work</a>
+            </li>
+            <li class="option">
+              <a class="nav-link" href="#values">Our Values</a>
+            </li>
+            <li class="option">
+              <a class="nav-link" href="#contactform">Contact Us</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav-options">
-          <li class="option">
-            <a href="#importance">About</a>
-          </li>
-          <li class="option">
-            <a href="#services">Our Services</a>
-          </li>
-          <li class="option">
-            <a href="#work">Our Work</a>
-          </li>
-          <li class="option">
-            <a href="#values">Our Values</a>
-          </li>
-          <li class="option">
-            <a href="#contactform">Contact Us</a>
-          </li>
-        </ul>
       </div>
     </div>
     <div class="hero-section">
@@ -55,7 +59,8 @@
         </div>
       </div>
     </div>
-    <div class="importance-section" id="importance">
+    <div class="importance-section">
+      <div id="importance"></div>
       <div class="container">
         <div class="importance-content">
           <h3 class="heading">Research-Driven User Experience Design</h3>
@@ -63,26 +68,38 @@
             <div class="column">
               <div class="importance-card">
                 <div class="icon icon-1"></div>
-                <p class="caption">ROI of up to 100$ for every $1 invested in UX.</p>
+                <p class="caption">ROI of up to 100$ for every $1 invested in UX.
+                  <sup>1</sup>
+                </p>
               </div>
             </div>
             <div class="column">
               <div class="importance-card">
                 <div class="icon icon-2"></div>
-                <p class="caption">Increase both brand loyalty and conversion.</p>
+                <p class="caption">Increase both brand loyalty and conversion.
+                  <sup>1</sup>
+                </p>
               </div>
             </div>
             <div class="column">
               <div class="importance-card">
                 <div class="icon icon-3"></div>
-                <p class="caption">Reduce development costs by 50%.</p>
+                <p class="caption">Reduce development costs by 50%.
+                  <sup>1</sup>
+                </p>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="importance-info">
+              <sup>1</sup> Survey conducted by <i>Forrester Research.</i>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="services-section" id="services">
+    <div class="services-section">
+      <div id="services"></div>
       <div class="container">
         <div class="services-content">
           <div class="row">
@@ -92,11 +109,12 @@
                 <div class="content">
                   <h4 class="heading">User Experience<br/> Reviews</h4>
                   <ul class="list">
-                    <li class="item">Have your product tested and reviewed by us.</li>
+                    <li class="item">Up to 35 pages of UX flaws, issues, and solutions to your website.</li>
                     <li class="item">Let us help you improve your product through iteration.</li>
-                    <li class="item">Finding what’s missing is our job so let us do the dirty work.</li>
+                    <li class="item">Reviewed by 3 UX Professionals for less subjectivity.</li>
+                    <li class="item">1 week turnaround.</li>
                   </ul>
-                  <a href="#contactform" class="call-to-action btn">Inquire for a Review</a>
+                  <a href="#contactform" class="call-to-action btn">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -106,11 +124,12 @@
                 <div class="content">
                   <h4 class="heading">Design<br/> Solutions</h4>
                   <ul class="list">
-                    <li class="item">Have your product tested and reviewed by us.</li>
-                    <li class="item">Let us help you improve your product through iteration.</li>
-                    <li class="item">Finding what’s missing is our job so let us do the dirty work.</li>
+                    <li class="item">A complete user-centered design process for your product.</li>
+                    <li class="item">We included user research into all our design services.</li>
+                    <li class="item">Rapid prototyping to streamline your sales process.</li>
+                    <li class="item">Usability testing</li>
                   </ul>
-                  <a href="#contactform" class="call-to-action btn">Request a Quote</a>
+                  <a href="#contactform" class="call-to-action btn">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -118,13 +137,14 @@
               <div class="services-card">
                 <div class="image image-3"></div>
                 <div class="content">
-                  <h4 class="heading">Research<br/> Solution</h4>
+                  <h4 class="heading">Team<br/> Assistance</h4>
                   <ul class="list">
-                    <li class="item">Have your product tested and reviewed by us.</li>
-                    <li class="item">Let us help you improve your product through iteration.</li>
-                    <li class="item">Finding what’s missing is our job so let us do the dirty work.</li>
+                    <li class="item">Fulfill short-term team needs by &ldquo;renting&rdquo; a designer month-to-month.</li>
+                    <li class="item">Carefully curated talent in the Philippines.</li>
+                    <li class="item">From junior-level to senior-level UX practitioners.</li>
+                    <li class="item">Simple pricing.</li>
                   </ul>
-                  <a href="#contactform" class="call-to-action btn">Schedule a Meeting</a>
+                  <a href="#contactform" class="call-to-action btn">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -140,28 +160,30 @@
         </div>
       </div>
     </div>
-    <div class="work-section" id="work">
+    <div class="work-section">
+      <div id="work"></div>
       <div class="container">
         <div class="work-content">
           <h3 class="heading">We Come from Amazing Companies</h3>
           <ul class="company-logos">
             <li class="company-logo">
-              <img src="assets/img/logos/lexus.png">
+              <img src="assets/img/company-logos/lexus.png">
             </li>
             <li class="company-logo">
-              <img src="assets/img/logos/olx.png">
+              <img src="assets/img/company-logos/olx.png">
               </li>
             <li class="company-logo">
-              <img src="assets/img/logos/uxpin.png">
+              <img src="assets/img/company-logos/uxpin.png">
               </li>
             <li class="company-logo">
-              <img src="assets/img/logos/uap.png">
+              <img src="assets/img/company-logos/uap.png">
               </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="values-section" id="values">
+    <div class="values-section">
+      <div id="values"></div>
       <div class="container">
         <div class="values-content">
           <h2 class="heading">Our Values</h2>
@@ -171,7 +193,7 @@
                 Thank you for considering us.
               </p>
               <p class="values-paragraph">
-                The word &ldquo;Apical&rdquo; means something that is at the peak. Much like our name, we look forward to delivering the absolute best.
+                The word &ldquo;Apical&rdquo; means something that is at the peak. Much like our name, we look forward to delivering the <span class="emphasis">absolute best.</span>
               </p>
             </div>
             <div class="column">
@@ -183,7 +205,7 @@
                 <li class="item">Honesty and transparency</li>
                 <li class="item">Simple pricing. No hidden fees.</li>
                 <li class="item">A team that cares about your users and your success.</li>
-                <li class="item">An experience your users will <span>love.</span></li>
+                <li class="item">An experience your users will <span class="emphasis">love.</span></li>
               </ul>
             </div>
           </div>
@@ -198,7 +220,8 @@
         </div>
       </div>
     </div>
-    <div class="contactform-section" id="contactform">
+    <div class="contactform-section">
+      <div id="contactform"></div>
       <div class="container">
         <div class="contactform-content">
           <h3 class="heading">Let's have a talk!</h3>
@@ -206,26 +229,26 @@
             Do you need any help in UX?
             Schedule a meeting with us so we can kick things off.
           </h6>
-          <form class="contactform-form">
+          <form class="contactform-form" method="POST" action="http://formspree.io/jelvin.base@gmail.com">
             <div class="row">
               <div class="column">
                 <div class="contactform-input">
                   <label class="label">Name</label>
-                  <input class="input" placeholder="e.g. Elymar Apao" type="text"></input>
+                  <input class="input" name="name" placeholder="e.g. Elymar Apao" type="text"></input>
                 </div>
                 <div class="contactform-input">
                   <label class="label">Email</label>
-                  <input class="input" placeholder="e.g. ely@apicaldesign.com" type="text"></input>
+                  <input class="input" name="email" placeholder="e.g. ely@apicaldesign.com" type="email"></input>
                 </div>
                 <div class="contactform-input">
                   <label class="label">Company</label>
-                  <input class="input" placeholder="e.g. Apical Design" type="text"></input>
+                  <input class="input" name="company" placeholder="e.g. Apical Design" type="text"></input>
                 </div>
               </div>
               <div class="column">
                 <div class="contactform-input">
                   <label class="label">Services</label>
-                  <select class="select">
+                  <select class="select" name="services">
                     <option>User Experience Reviews</option>
                     <option>Design Solutions</option>
                     <option>Research Solutions</option>
@@ -235,7 +258,7 @@
                 </div>
                 <div class="contactform-input">
                   <label class="label">Message</label>
-                  <textarea class="textarea" placeholder="Is there anything that you want us to know about your current problem? " type="paragraph"></textarea>
+                  <textarea class="textarea" name="message" placeholder="Is there anything that you want us to know about your current problem? " type="paragraph"></textarea>
                 </div>
               </div>
             </div>
@@ -260,23 +283,35 @@
       <div class="container">
         <div class="row">
           <div class="column">
-            <ul class="list footer-links">
+            <ul class="list footer-links footer-links-1">
+              <li class="item">
+                <a href="#importance">About</a>
+              </li>
+              <li class="item">
+                <a href="#services">Our Services</a>
+              </li>
+              <li class="item">
+                <a href="#work">Our Work</a>
+              </li>
+              <li class="item">
+                <a href="#values">Our Values</a>
+              </li>
+              <li class="item">
+                <a href="#contactform">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul class="list footer-links footer-links-2">
               <li class="item">Footer Item 1</li>
               <li class="item">Footer Item 2</li>
               <li class="item">Footer Item 3</li>
               <li class="item">Footer Item 4</li>
-            </ul>
-          </div>
-          <div class="column">
-            <ul class="list footer-links">
-              <li class="item">Footer Item 1</li>
-              <li class="item">Footer Item 2</li>
-              <li class="item">Footer Item 3</li>
               <li class="item">Footer Item 4</li>
             </ul>
           </div>
           <div class="column">
-          <!-- Begin MailChimp Signup Form -->
+            <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup" class="subscription-box">
               <h6 class="subscription-heading">Join our newsletter!</h6>
               <p class="subscription-caption">We give free tips and insider news about our projects. Join our mailing list to learn more about our activity.</p>
@@ -294,17 +329,7 @@
                 </div>
               </form>
             </div>
-
-            <!-- End mc_embed_signup 
-            <div class="subscription-box">
-              <h4 class="heading">Join our newsletter!</h4>
-              <h6 class="subheading">We give free tips and insider news about our projects. Join our mailing list to learn more about our activity.</h6>
-              <form class="form">
-                <input class="input"></input>
-                <button class="submit" type="submit">Join</button>
-              </form>
-            </div>
-            -->
+            <!-- End mc_embed_signup -->
           </div>
         </div>
       </div>
@@ -327,6 +352,8 @@
         </form>
       </div>
     </div> -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/analytics.js"></script>
   </body>
 </html> 
 
