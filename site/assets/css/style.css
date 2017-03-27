@@ -55,6 +55,7 @@
     display: block;
     color: #0D2132;
     font-family: 'Karla', sans-serif;
+    font-size: 18px; 
   }
 
   h1 { font-size: 48px }
@@ -66,12 +67,13 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-weight: 100;
   }
 
   p { 
     line-height: 21px;
-    font-size: 16px; 
+    font-size: 18px; 
+    font-weight: 100;
   }
 
   ul {
@@ -153,7 +155,8 @@
 
 /* Elements */
   .btn {
-    padding: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding: 16px 30px;
     display: inline-block;
     letter-spacing: 1px;
     text-decoration: none;
@@ -249,7 +252,7 @@
 
   .nav-options > .option > a {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 200;
     font-family: 'Nunito', sans-serif;
     display: inline-block;
     padding: 32px 24px;
@@ -497,7 +500,7 @@
 
   .services-card > .content > .heading:after {
     height: 2px;
-    max-width: 48px;
+    max-width: 75px;
     display: block;
     margin: 24px auto 36px;
   }
@@ -776,6 +779,7 @@
   .contactform-input > .select {
     padding: 8px;
     height: 56px;
+    border-radius: 0px;
   }
 
   .contactform-input > .input,
@@ -784,7 +788,7 @@
     width: 100%;
     border: 0;
     border-radius: 0;
-    border-bottom: 2px solid #0D2132;
+    border: 1px solid #0D2132;
   }
   
   .contactform-input > .input,
@@ -792,19 +796,22 @@
   .contactform-input > .textarea,
   .contactform-submit {
     margin: 0 auto;
-    padding: 16px;
-    font-family: 'Karla', sans-serif;
+    padding: 16px 15px;
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
+    border-radius: 0;
   }
 
   .contactform-input > .textarea {
     resize: none;
     height: 160px;
+    border-radius: 0;
   }
 
   .contactform-submit {
     border: 0;
+    padding: 16px 30px;
   }
 
 /* Section - Location */  

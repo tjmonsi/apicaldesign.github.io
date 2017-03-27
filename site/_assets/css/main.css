@@ -1,22 +1,13 @@
 /* Typography  */
 
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-@font-face {
-  font-family: "Cervo";
-  src: url(cervo.ttf) format("truetype");
-  /*
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Quicksand', sans-serif;
-  font-family: 'Mandali', sans-serif;
-  */
-}
 
 h1 {
   margin-top: 10px;
   font-size: 42px;
-  font-weight: 200;
+  font-weight: 100;
   font-family: 'Nunito', sans-serif;
 
 }
@@ -35,7 +26,7 @@ h2 {
 
 
 h3,h4,h5 {
-  /*font-family: "Cervo", Helvetica, Arial;*/
+
 }
 sup {
   position: relative;
@@ -84,7 +75,6 @@ p.capitalize {
 
 .navbar {
   background-color: transparent;
-  /*font-family: "Cervo", Helvetica, Arial;*/
   border-bottom:none;
 }
 .navbar-brand {
@@ -92,7 +82,7 @@ p.capitalize {
   color: #FFFFFF;
   padding-top: 10px;
   padding-left: 160px;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing:2px;
   font-size: 25px;
   font-family: 'Nunito', sans-serif;
@@ -106,8 +96,8 @@ p.capitalize {
 
 .navbar-apical .nav li a {
   color: #fff;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Nunito', helvetica, arial, sans-serif;
+  font-weight: 100;
   font-size:15px;
   letter-spacing: 1px;
   text-transform: uppercase;
