@@ -681,6 +681,7 @@
 
   .emphasis {
     color: #B70303;
+    text-decoration: underline;
   }
 
   .values-background {
