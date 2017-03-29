@@ -253,6 +253,7 @@
   .nav-options > .option > a {
     color: #ffffff;
     font-weight: 200;
+    font-size: 16px;
     font-family: 'Nunito', sans-serif;
     display: inline-block;
     padding: 32px 24px;
@@ -264,6 +265,17 @@
   .nav-options > .option > a:hover {
     background: rgba(255,255,255,0.1);
   }
+
+  .nav-cta {
+    background-color: #70B3B8 !important;
+    margin: 16px 8px;
+    padding: 16px !important;
+  }
+
+  .nav-cta:hover {
+    background-color: #7DC9CF !important;
+  }
+
 
 /* Section - Hero */
   .hero-section {
