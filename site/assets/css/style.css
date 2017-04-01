@@ -172,25 +172,19 @@
   }
 
 
-  .hamburger {
+  .mobile-menu {
     position: relative;
+    font-size: 18px;
     display: inline-block;
-    width: 32px;
-    height: 20px;
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
+    width: 50px;
+    border: 1px solid #fff;
+    padding: 12px 15px;
+    top: -10px;
   }
 
-  .hamburger:before {
-    content: "";
-    position: absolute;
-    top:8px;
-    left: 0px;
-    width: 100%;
-    border-top: 4px solid #fff;
+  .mobile-menu:hover {
+    background-color: rgba(255,255,255,0.1);
   }
-
-
 
   .heading:after {
     content: '';
@@ -410,8 +404,8 @@
   }
 
   .importance-card > .icon {
-    height: 96px;
-    width: 96px;
+    height: 125px;
+    width: 125px;
     display: block;
     margin: 0 auto 32px;
     background-repeat: no-repeat;
@@ -420,15 +414,15 @@
   }
 
   .importance-card > .icon-1{
-    background-image: url(../img/icons/money.svg);
+    background-image: url(../img/icons/roi.svg);
   }
 
   .importance-card > .icon-2{
-    background-image: url(../img/icons/conversation.svg);
+    background-image: url(../img/icons/loyalty.svg);
   }
 
   .importance-card > .icon-3{
-    background-image: url(../img/icons/stats.svg);
+    background-image: url(../img/icons/development.svg);
   }
 
   .importance-info {
@@ -495,15 +489,15 @@
   }
 
   .services-card > .image-1 {
-    background-image: url(../img/stock/values-1.jpg);
+    background-image: url(../img/stock/test1.svg);
   }
 
   .services-card > .image-2 {
-    background-image: url(../img/stock/values-2.jpg);
+    background-image: url(../img/stock/test2.svg);
   }
 
   .services-card > .image-3 {
-    background-image: url(../img/stock/values-3.jpg);
+    background-image: url(../img/stock/test3.svg);
   }
 
   .services-card > .content {
@@ -979,9 +973,10 @@
   }
 
   .subscription-input > input {
-    padding: 16px;
+    padding: 18px;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
+    margin-right: 20px;
     box-sizing: border-box;
     width: 100%;
     border: none;
