@@ -489,15 +489,15 @@
   }
 
   .services-card > .image-1 {
-    background-image: url(../img/stock/test1.svg);
+    background-image: url(../img/icons/uxreviews.svg);
   }
 
   .services-card > .image-2 {
-    background-image: url(../img/stock/test2.svg);
+    background-image: url(../img/icons/designsolutions.svg);
   }
 
   .services-card > .image-3 {
-    background-image: url(../img/stock/test3.svg);
+    background-image: url(../img/icons/teamassistance.svg);
   }
 
   .services-card > .content {
