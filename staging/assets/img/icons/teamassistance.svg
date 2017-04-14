@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="300px" viewBox="0 0 375 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Home Page &gt; Team Assistance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-&gt;-Team-Assistance">
+            <g id="UX-is-not-a-department" transform="translate(51.000000, 45.000000)">
+                <g id="Group-3">
+                    <g id="Group-16">
+                        <g id="Group-2" transform="translate(7.000000, 0.000000)" stroke-width="6">
+                            <g id="Group-Copy-3" transform="translate(0.000000, 132.359551)" stroke="#EE6262">
+                                <path d="M0.174647413,55.6338878 C0.174647413,55.6338878 -0.455820605,28.4455832 18.6941311,28.4455832 C37.8440828,28.4455832 37.2136148,55.9200901 37.2136148,55.9200901" id="Path-19-Copy-3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <ellipse id="Oval-Copy-3" cx="18.258427" cy="12.6404494" rx="12.6404494" ry="12.6404494"></ellipse>
+                            </g>
+                            <g id="Group-Copy-4" transform="translate(106.000000, 132.000000)" stroke="#70B875">
+                                <path d="M0.174647413,55.6338878 C0.174647413,55.6338878 -0.455820605,28.4455832 18.6941311,28.4455832 C37.8440828,28.4455832 37.2136148,55.9200901 37.2136148,55.9200901" id="Path-19-Copy-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <ellipse id="Oval-Copy-2" cx="18.258427" cy="12.6404494" rx="12.6404494" ry="12.6404494"></ellipse>
+                            </g>
+                            <g id="Group-Copy-5" transform="translate(212.546816, 132.359551)" stroke="#4368C8">
+                                <path d="M0.174647413,55.6338878 C0.174647413,55.6338878 -0.455820605,28.4455832 18.6941311,28.4455832 C37.8440828,28.4455832 37.2136148,55.9200901 37.2136148,55.9200901" id="Path-19-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <ellipse id="Oval-Copy" cx="18.258427" cy="12.6404494" rx="12.6404494" ry="12.6404494"></ellipse>
+                            </g>
+                            <g id="Group-17-Copy" transform="translate(70.000000, 0.000000)" stroke="#169CA6">
+                                <g id="Group-Copy-6" transform="translate(34.868914, 0.000000)">
+                                    <path d="M0.174647413,55.6338878 C0.174647413,55.6338878 -0.455820605,28.4455832 18.6941311,28.4455832 C37.8440828,28.4455832 37.2136148,55.9200901 37.2136148,55.9200901" id="Path-19" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <ellipse id="Oval" cx="18.258427" cy="12.6404494" rx="12.6404494" ry="12.6404494"></ellipse>
+                                </g>
+                                <g id="Group-Copy-7" transform="translate(0.224719, 14.044944)">
+                                    <path d="M0.174647413,55.6338878 C0.174647413,55.6338878 -0.455820605,28.4455832 18.6941311,28.4455832 C37.8440828,28.4455832 37.2136148,55.9200901 37.2136148,55.9200901" id="Path-19" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <ellipse id="Oval" cx="18.258427" cy="12.6404494" rx="12.6404494" ry="12.6404494"></ellipse>
+                                </g>
+                                <g id="Group-Copy-8" transform="translate(70.449438, 14.044944)">
+                                    <path d="M0.174647413,55.6338878 C0.174647413,55.6338878 -0.455820605,28.4455832 18.6941311,28.4455832 C37.8440828,28.4455832 37.2136148,55.9200901 37.2136148,55.9200901" id="Path-19" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <ellipse id="Oval" cx="18.258427" cy="12.6404494" rx="12.6404494" ry="12.6404494"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="YOUR-TEAM" font-family="Nunito-Black, Nunito" font-size="15" font-weight="700" letter-spacing="3" fill="#83A5C2">
+                            <tspan x="75" y="90">YOUR TEAM</tspan>
+                        </text>
+                        <text id="DESIGN" font-family="Nunito-Black, Nunito" font-size="12" font-weight="700" letter-spacing="1.60000002" fill="#83A5C2">
+                            <tspan x="0" y="206">DESIGN</tspan>
+                        </text>
+                        <text id="PROTOTYPE" font-family="Nunito-Black, Nunito" font-size="12" font-weight="700" letter-spacing="1.60000002" fill="#83A5C2">
+                            <tspan x="91" y="206">PROTOTYPE</tspan>
+                        </text>
+                        <text id="RESEARCH" font-family="Nunito-Black, Nunito" font-size="12" font-weight="700" letter-spacing="1" fill="#83A5C2">
+                            <tspan x="201" y="205">RESEARC</tspan>
+                            <tspan x="264.244" y="205">H</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-15" transform="translate(23.000000, 30.000000)">
+                        <polygon id="Triangle-2-Copy" fill="#83A5C2" transform="translate(39.500000, 11.000000) rotate(-90.000000) translate(-39.500000, -11.000000) " points="39.5 20 29 2 50 2"></polygon>
+                        <path d="M39,11.0019866 C39,11.0019866 34.4097034,11.0019866 17.4023438,11.0019866 C0.394984066,11.0019866 0.120035064,12.9638672 0.120035064,44.9832691 C0.120035064,77.002671 1.0658141e-13,86.5979787 1.0658141e-13,86.5979787" id="Path-20" stroke="#83A5C2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <g id="Group-15-Copy" transform="translate(220.000000, 75.000000) scale(-1, 1) translate(-220.000000, -75.000000) translate(193.000000, 30.000000)">
+                        <polygon id="Triangle-2-Copy" fill="#83A5C2" transform="translate(39.500000, 11.000000) rotate(-90.000000) translate(-39.500000, -11.000000) " points="39.5 20 29 2 50 2"></polygon>
+                        <path d="M39,11.0019866 C39,11.0019866 34.4097034,11.0019866 17.4023438,11.0019866 C0.394984066,11.0019866 0.120035064,12.9638672 0.120035064,44.9832691 C0.120035064,77.002671 1.0658141e-13,86.5979787 1.0658141e-13,86.5979787" id="Path-20" stroke="#83A5C2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <path d="M132,97 L132,122.749064" id="Path-21" stroke="#83A5C2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

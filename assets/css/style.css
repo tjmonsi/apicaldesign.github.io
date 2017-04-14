@@ -55,7 +55,7 @@
     display: block;
     color: #0D2132;
     font-family: 'Karla', sans-serif;
-    font-size: 18px; 
+    font-size: 16px; 
   }
 
   h1 { font-size: 48px }
@@ -71,6 +71,8 @@
   }
 
   p { 
+    /* line-height: 21px; */
+    /* font-size: 16px;  */
     line-height: 25px;
     font-size: 18px; 
     font-weight: 100;
@@ -365,7 +367,7 @@
 
   .importance-section > .container {
     height: 100%;
-    padding: 160px 48px 200px;
+    padding: 160px 48px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -908,9 +910,14 @@
 
   .footer > .container {
     padding: 80px 48px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .footer > .container > .row {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -925,19 +932,15 @@
   .footer > .container > .row > .column:nth-child(1),
   .footer > .container > .row > .column:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 48%;
-            flex: 0 1 48%;
-  }
-
-  .footer > .container > .row > .column:nth-child(3) {
-    -webkit-box-flex: 0;
         -ms-flex: 0 1 49%;
             flex: 0 1 49%;
   }
 
-  .footer-links-2 {
-    display: none;
-  }
+  .footer-logo {
+    width: 85%;
+    margin: 32px auto;
+    display: block;
+}
 
   .footer-links > .item {
     margin-bottom: 20px;
@@ -1027,29 +1030,82 @@
     transform: skewY(5deg);
   }
 
+  .footer-copyright {
+    margin: 48px auto 0;
+    font-size: 13px;
+  }
+
 /* Section - Bonus */
   .bonus-section {
-    height: 56px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #ffffff;
-    background-color: #70B3B8;
+    height: 100%;
+    position: relative;
   }
 
   .bonus-container {
-    padding: 18px;
-    max-width: 1160px;
+    padding: 24px;
+    max-width: 480px;
     margin: 0 auto;
+    box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
-  .bonus-container > .form > .label {
-    font-size: 19px;
-  }
-
-  .bonus-container > .form > .form-submit {
+  .bonus-form-submit {
     float: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .bonus-box {
+    width: 100%;
+  }
+
+  .bonus-label {
+    margin-bottom: 16px;
+    display: block;
+    text-align: center;
+  }
+
+  .bonus-textbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .bonus-input {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 75%;
+            flex: 0 1 75%;
+    height: 100%;
+  }
+
+  .bonus-input > input {
+    padding: 16px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border: 1px solid #0D2132;
+  }
+
+  .bonus-submit {
+    padding: 0px 16px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 
 /* Media Queries */
@@ -1093,15 +1149,17 @@
   .footer > .container > .row > .column:nth-child(1),
   .footer > .container > .row > .column:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
     margin-bottom: 24px;
   }
 
-  .footer > .container > .row > .column:nth-child(3) {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
+  .footer-copyright {
+    margin-top: 24px;
+  }
+
+  .bonus-label > span {
+    display: block;
   }
 }
 
@@ -1128,8 +1186,7 @@
             flex-direction: column;
 
     height: 100vh;
-    padding: 24px;
-    padding-right: 80px;
+    padding: 80px 24px 80px;
     background: #0D2132;
   }
 
@@ -1157,3 +1214,4 @@
     float: left;
   }
 }
+  }
