@@ -1,0 +1,54 @@
+$base-colors: (
+	primary: #0D2132,
+	secondary: #70B3B8,
+  secondary-light: #7DC9CF,
+  accent: #B70303,
+  light: #ffffff,
+  light-fade: #efefef
+);
+
+$colors: $base-colors;
+
+$menu-width: 14rem;
+
+// mixins
+@mixin clearfix {
+	&:after {
+		clear: both;
+	}
+
+	&:before,
+	&:after {
+		display: table;
+		content: ' ';
+	}
+}
+
+@mixin border-box {
+	box-sizing: border-box;
+}
+
+@mixin flex-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flex-1 {
+  -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+
+@mixin flex-0($percent: auto) {
+  -webkit-box-flex: 0;
+        -ms-flex: 0 1 $percent;
+            flex: 0 1 $percent;
+}
+
+@mixin flex-vertical {
+  -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}

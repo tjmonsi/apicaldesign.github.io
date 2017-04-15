@@ -1,0 +1,31 @@
+colors:
+  primary:
+    Main: "#0D2132"
+  secondary:
+    Main: "	#70B3B8"
+    Light: "#7DC9CF"
+  accent:
+    Main: "#B70303"
+  light:
+    Main: "#FFFFFF"
+    Fade: "#efefef"
+fonts:
+  -
+    class: "primary-font"
+    text: "'Karla', sans-serif"
+  -
+    class: "primary-font bold"
+    text: "'Karla', sans-serif"
+  -
+    class: "primary-font italic"
+    text: "'Karla', sans-serif"
+  -
+    class: "secondary-font"
+    text: "'Nunito', sans-serif"
+  -
+    class: "secondary-font bold"
+    text: "'Nunito', sans-serif"
+  -
+    class: "secondary-font italic"
+    text: "'Nunito', sans-serif"
+
