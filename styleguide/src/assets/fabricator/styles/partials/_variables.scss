@@ -1,28 +1,15 @@
 $base-colors: (
-	dark: hsl(0, 0%, 12%),
-	medium: hsl(0, 0%, 46%),
-	light: hsl(0, 0%, 80%),
-	accent: hsl(0, 0%, 46%)
+	primary: #0D2132,
+	secondary: #70B3B8,
+  secondary-light: #7DC9CF,
+  accent: #B70303,
+  light: #ffffff,
+  light-fade: #efefef
 );
 
-$theme-dark: (
-	menu-background: map-get($base-colors, dark),
-	menu-text: map-get($base-colors, light),
-	normal: map-get($base-colors, medium)
-);
-
-$theme-light: (
-	menu-background: hsl(0, 0%, 100%),
-	menu-text: map-get($base-colors, medium),
-	normal: map-get($base-colors, medium)
-);
-
-$theme: $theme-light;
-
-$colors: map-merge($base-colors, $theme);
+$colors: $base-colors;
 
 $menu-width: 14rem;
-
 
 // mixins
 @mixin clearfix {
@@ -39,4 +26,29 @@ $menu-width: 14rem;
 
 @mixin border-box {
 	box-sizing: border-box;
+}
+
+@mixin flex-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flex-1 {
+  -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+
+@mixin flex-0($percent: auto) {
+  -webkit-box-flex: 0;
+        -ms-flex: 0 1 $percent;
+            flex: 0 1 $percent;
+}
+
+@mixin flex-vertical {
+  -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }

@@ -70,7 +70,7 @@
 
 		&:hover {
 			use {
-				fill: map-get($colors, normal);
+				fill: map-get($colors, accent);
 			}
 		}
 

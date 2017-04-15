@@ -1,0 +1,17 @@
+.btn {
+    font-family: 'Nunito', sans-serif;
+    padding: 16px 30px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    -webkit-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+    background-color: #70B3B8;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: #7DC9CF;
+  }
