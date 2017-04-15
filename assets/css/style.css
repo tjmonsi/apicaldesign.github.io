@@ -79,6 +79,7 @@
   }
 
   ul {
+    font-size: 18px;
     list-style-type: none;
   }
 
@@ -522,6 +523,7 @@
   }
 
   .services-card > .content > .list > .item {
+    font-size: 18px;
     margin-bottom: 12px;
     line-height: 25px;
   }
@@ -1042,8 +1044,8 @@
   }
 
   .bonus-container {
-    padding: 24px;
-    max-width: 480px;
+    padding: 20px 24px;
+    max-width: 650px;
     margin: 0 auto;
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
