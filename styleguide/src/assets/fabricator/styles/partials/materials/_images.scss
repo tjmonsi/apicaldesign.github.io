@@ -52,3 +52,24 @@ background-image: url(../../toolkit/images/icons/loyalty.svg);
 .importance-card > .icon-3{
 background-image: url(../../toolkit/images/icons/development.svg);
 }
+
+.services-card > .image {
+    width: 100%;
+    background-color: #efefef;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80%;
+  }
+
+  .services-card > .image-1 {
+    background-image: url(../../toolkit/images/icons/uxreviews.svg);
+  }
+
+  .services-card > .image-2 {
+    background-image: url(../../toolkit/images/icons/designsolutions.svg);
+  }
+
+  .services-card > .image-3 {
+    background-image: url(../../toolkit/images/icons/teamassistance.svg);
+  }
