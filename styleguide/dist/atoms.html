@@ -78,6 +78,12 @@
 						<li>
 							<a href="./atoms.html#03-button">Button</a>
 						</li>
+						<li>
+							<a href="./atoms.html#04-forms">Forms</a>
+						</li>
+						<li>
+							<a href="./atoms.html#05-images">Images</a>
+						</li>
 					</ul>
 				</li>
 		
@@ -250,6 +256,9 @@
 
 </div>
 
+<hr>
+<div style="height: 20px;"></div>
+
 
 <div class="f-item-group" id="01-fonts">
 
@@ -291,6 +300,9 @@
 
 </div>
 
+<hr>
+<div style="height: 20px;"></div>
+
 
 <div class="f-item-group" id="02-typography">
 
@@ -309,32 +321,51 @@
 			</span>
 		</div>
 	</div><div class="f-item-notes" data-f-toggle="notes">
-	<p>These are notes associated with this <code>typography</code> atoms.</p>
+	<p>These are notes associated with this <code>typography</code> atoms. (I have removed the reset css because it removes the spacing required for deliniation of text parts)</p>
 
 </div>
 <div class="f-item-preview">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
-
-<h1>Heading Level 1</h1>
+	<h1>Heading Level 1</h1>
 <h2>Heading Level 2</h2>
 <h3>Heading Level 3</h3>
 <h4>Heading Level 4</h4>
 <h5>Heading Level 5</h5>
 <h6>Heading Level 6</h6>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
+
+<em>This is an emphasized text</em>
+
+<div class="typography-dark">
+	<a class="nav-link" href="#typography">Nav Link Header</a>
+
+	<a class="nav-link nav-cta" href="#typography">Nav Link Header CTA</a>
+</div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.&lt;/p&gt;
-
-&lt;h1&gt;Heading Level 1&lt;/h1&gt;
+	<pre><code class="language-markup">&lt;h1&gt;Heading Level 1&lt;/h1&gt;
 &lt;h2&gt;Heading Level 2&lt;/h2&gt;
 &lt;h3&gt;Heading Level 3&lt;/h3&gt;
 &lt;h4&gt;Heading Level 4&lt;/h4&gt;
 &lt;h5&gt;Heading Level 5&lt;/h5&gt;
-&lt;h6&gt;Heading Level 6&lt;/h6&gt;</code></pre>
+&lt;h6&gt;Heading Level 6&lt;/h6&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.&lt;/p&gt;
+
+&lt;em&gt;This is an emphasized text&lt;/em&gt;
+
+&lt;div class&#x3D;&quot;typography-dark&quot;&gt;
+	&lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;#typography&quot;&gt;Nav Link Header&lt;/a&gt;
+
+	&lt;a class&#x3D;&quot;nav-link nav-cta&quot; href&#x3D;&quot;#typography&quot;&gt;Nav Link Header CTA&lt;/a&gt;
+&lt;/div&gt;</code></pre>
 </div>
 
 
 </div>
+
+<hr>
+<div style="height: 20px;"></div>
 
 
 <div class="f-item-group" id="03-button">
@@ -368,6 +399,294 @@
 
 
 </div>
+
+<hr>
+<div style="height: 20px;"></div>
+
+
+<div class="f-item-group" id="04-forms">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Forms</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+				<svg>
+					<use xlink:href="#f-icon-notes" />
+				</svg>
+			</span>
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div><div class="f-item-notes" data-f-toggle="notes">
+	<p>These are notes associated with this <code>form</code> component.</p>
+
+</div>
+<div class="f-item-preview">
+	<h3>Contact Form inputs</h3>
+
+<div style="height: 20px;"></div>
+
+<div class="contactform-input">
+	<input class="input" name="name" placeholder="Your Name Here" type="text"></input>
+</div>
+<div class="contactform-input">
+	<input class="input" name="email" placeholder="Your Email Here" type="email"></input>
+</div>
+
+<div class="contactform-input">
+	<select class="select" name="services">
+    <option>User Experience Reviews</option>
+    <option>Design Solutions</option>
+    <option>Research Solutions</option>
+    <option>Team Assistance</option>
+    <option>Other</option>
+  </select>
+</div>
+<div class="contactform-input">
+	<textarea class="textarea" name="message" placeholder="Is there anything else you'd like us to know?" type="paragraph"></textarea>
+</div>
+
+<h3>Subscription Form inputs</h3>
+
+<div style="height: 20px;"></div>
+
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email Here">
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;h3&gt;Contact Form inputs&lt;/h3&gt;
+
+&lt;div style&#x3D;&quot;height: 20px;&quot;&gt;&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;contactform-input&quot;&gt;
+	&lt;input class&#x3D;&quot;input&quot; name&#x3D;&quot;name&quot; placeholder&#x3D;&quot;Your Name Here&quot; type&#x3D;&quot;text&quot;&gt;&lt;/input&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;contactform-input&quot;&gt;
+	&lt;input class&#x3D;&quot;input&quot; name&#x3D;&quot;email&quot; placeholder&#x3D;&quot;Your Email Here&quot; type&#x3D;&quot;email&quot;&gt;&lt;/input&gt;
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;contactform-input&quot;&gt;
+	&lt;select class&#x3D;&quot;select&quot; name&#x3D;&quot;services&quot;&gt;
+    &lt;option&gt;User Experience Reviews&lt;/option&gt;
+    &lt;option&gt;Design Solutions&lt;/option&gt;
+    &lt;option&gt;Research Solutions&lt;/option&gt;
+    &lt;option&gt;Team Assistance&lt;/option&gt;
+    &lt;option&gt;Other&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;contactform-input&quot;&gt;
+	&lt;textarea class&#x3D;&quot;textarea&quot; name&#x3D;&quot;message&quot; placeholder&#x3D;&quot;Is there anything else you&#x27;d like us to know?&quot; type&#x3D;&quot;paragraph&quot;&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Subscription Form inputs&lt;/h3&gt;
+
+&lt;div style&#x3D;&quot;height: 20px;&quot;&gt;&lt;/div&gt;
+
+&lt;input type&#x3D;&quot;email&quot; value&#x3D;&quot;&quot; name&#x3D;&quot;EMAIL&quot; class&#x3D;&quot;required email&quot; id&#x3D;&quot;mce-EMAIL&quot; placeholder&#x3D;&quot;Your Email Here&quot;&gt;</code></pre>
+</div>
+
+
+</div>
+
+<hr>
+<div style="height: 20px;"></div>
+
+
+<div class="f-item-group" id="05-images">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Images</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+				<svg>
+					<use xlink:href="#f-icon-notes" />
+				</svg>
+			</span>
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div><div class="f-item-notes" data-f-toggle="notes">
+	<p>These are notes associated with this <code>image</code> atoms. Most are used as background-images, which is ok for hero-image, but I don't know about others
+Please advise</p>
+
+</div>
+<div class="f-item-preview">
+	<div style="height: 40px"></div>
+<h3>Hero Image</h3>
+<div style="height: 20px"></div>
+
+<div class="hero-section-example-images">
+	<div class="hero-background background">
+		<div class="hero-front hero-section-example-images">
+			<div class="front hero-section-example-images"></div>
+		</div>
+		<div class="hero-back">
+			<div class="back"></div>
+		</div>
+	</div>
+</div>
+
+<div style="height: 40px"></div>
+<h3>Logo</h3>
+<div style="height: 20px"></div>
+
+<div class="hero-content" style="background-color: #0D2132">
+	<div class="flueron">
+	</div>
+</div>
+
+<div style="height: 40px"></div>
+<h3>SVGs</h3>
+<div style="height: 20px"></div>
+
+
+<div class="importance-card">
+	<div class="icon icon-1"></div>
+</div>
+<div class="importance-card">
+	<div class="icon icon-2"></div>
+</div>
+<div class="importance-card">
+	<div class="icon icon-3"></div>
+</div>
+
+<div style="height: 40px"></div>
+<h3>Services Images</h3>
+<div style="height: 20px"></div>
+
+
+<div class="services-card">
+	<div class="image image-1"></div>
+</div>
+<div class="services-card">
+	<div class="image image-2"></div>
+</div>
+<div class="services-card">
+	<div class="image image-3"></div>
+</div>
+
+<div style="height: 40px"></div>
+<h3>Work/Companies Images</h3>
+<div style="height: 20px"></div>
+
+<!--<p>This is now the anti-pattern. Please decide if we are going to use just img or a background-image and why use background-image over image tag.</p>-->
+
+<img src="./assets/toolkit/images/company-logos/lexus.png">
+<img src="./assets/toolkit/images/company-logos/olx.png">
+<img src="./assets/toolkit/images/company-logos/uxpin.png">
+<img src="./assets/toolkit/images/company-logos/uap.png">
+
+<div style="height: 40px"></div>
+<h3>Header Logo Image</h3>
+<div style="height: 20px"></div>
+
+<!-- why use a background logo on this one -->
+
+<div style="background-color: #0D2132; height: 100px;">
+	<a href="#" class="logo">
+	</a>
+</div>
+
+<div style="height: 40px"></div>
+<h3>Footer Logo Image</h3>
+<div style="height: 20px"></div>
+
+<img class="footer-logo" src="assets/toolkit/images/stock/footer-logo.png" alt="" />
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Hero Image&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;hero-section-example-images&quot;&gt;
+	&lt;div class&#x3D;&quot;hero-background background&quot;&gt;
+		&lt;div class&#x3D;&quot;hero-front hero-section-example-images&quot;&gt;
+			&lt;div class&#x3D;&quot;front hero-section-example-images&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class&#x3D;&quot;hero-back&quot;&gt;
+			&lt;div class&#x3D;&quot;back&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Logo&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;hero-content&quot; style&#x3D;&quot;background-color: #0D2132&quot;&gt;
+	&lt;div class&#x3D;&quot;flueron&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;SVGs&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+
+&lt;div class&#x3D;&quot;importance-card&quot;&gt;
+	&lt;div class&#x3D;&quot;icon icon-1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;importance-card&quot;&gt;
+	&lt;div class&#x3D;&quot;icon icon-2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;importance-card&quot;&gt;
+	&lt;div class&#x3D;&quot;icon icon-3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Services Images&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+
+&lt;div class&#x3D;&quot;services-card&quot;&gt;
+	&lt;div class&#x3D;&quot;image image-1&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;services-card&quot;&gt;
+	&lt;div class&#x3D;&quot;image image-2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;services-card&quot;&gt;
+	&lt;div class&#x3D;&quot;image image-3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Work/Companies Images&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;!--&lt;p&gt;This is now the anti-pattern. Please decide if we are going to use just img or a background-image and why use background-image over image tag.&lt;/p&gt;--&gt;
+
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/lexus.png&quot;&gt;
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/olx.png&quot;&gt;
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/uxpin.png&quot;&gt;
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/uap.png&quot;&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Header Logo Image&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;!-- why use a background logo on this one --&gt;
+
+&lt;div style&#x3D;&quot;background-color: #0D2132; height: 100px;&quot;&gt;
+	&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;logo&quot;&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Footer Logo Image&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;img class&#x3D;&quot;footer-logo&quot; src&#x3D;&quot;assets/toolkit/images/stock/footer-logo.png&quot; alt&#x3D;&quot;&quot; /&gt;</code></pre>
+</div>
+
+
+</div>
+
+<hr>
+<div style="height: 20px;"></div>
 
 
 

@@ -5,13 +5,14 @@
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: map-get($colors, light);
     -webkit-transition: background-color 200ms ease;
     transition: background-color 200ms ease;
-    background-color: #70B3B8;
-    cursor: pointer;
+    background-color: map-get($colors, secondary);
   }
 
   .btn:hover{
-    background-color: #7DC9CF;
+    background-color: map-get($colors, secondary-light);
   }
+
+
