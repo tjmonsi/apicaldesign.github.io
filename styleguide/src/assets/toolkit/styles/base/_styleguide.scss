@@ -1,0 +1,13 @@
+.example-block {
+  &__dark {
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: map-get($colors, primary);
+  }
+
+  &__dark--center {
+    text-align: center;
+  }
+}
