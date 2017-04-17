@@ -321,7 +321,9 @@
 			</span>
 		</div>
 	</div><div class="f-item-notes" data-f-toggle="notes">
-	<p>These are notes associated with this <code>typography</code> atoms.</p>
+	<p>These are notes associated with this <code>typography</code> atoms. The only problem with doing a css reset is it also resets all the margin and padding of
+all typography. This renders all texts to not have separation spaces and is not good in the long run. Consider not using the reset html css
+and just eliminate the padding and margin of individual styled elements.</p>
 
 </div>
 <div class="f-item-preview">
@@ -332,9 +334,9 @@
 <h5>Heading Level 5</h5>
 <h6>Heading Level 6</h6>
 
-<div style="height: 20px"></div>
-
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
+
+<em>This is an emphasized text</em>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
 	<pre><code class="language-markup">&lt;h1&gt;Heading Level 1&lt;/h1&gt;
@@ -344,9 +346,9 @@
 &lt;h5&gt;Heading Level 5&lt;/h5&gt;
 &lt;h6&gt;Heading Level 6&lt;/h6&gt;
 
-&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.&lt;/p&gt;</code></pre>
+&lt;em&gt;This is an emphasized text&lt;/em&gt;</code></pre>
 </div>
 
 
@@ -499,11 +501,13 @@
 			</span>
 		</div>
 	</div><div class="f-item-notes" data-f-toggle="notes">
-	<p>These are notes associated with this <code>image</code> atoms. Most are used as background-images, which is ok for hero-image, but I don't know about others</p>
+	<p>These are notes associated with this <code>image</code> atoms. Most are used as background-images, which is ok for hero-image, but I don't know about others
+Please advise</p>
 
 </div>
 <div class="f-item-preview">
-	<h3>Hero Image</h3>
+	<div style="height: 40px"></div>
+<h3>Hero Image</h3>
 <div style="height: 20px"></div>
 
 <div class="hero-section-example-images">
@@ -555,9 +559,38 @@
 <div class="services-card">
 	<div class="image image-3"></div>
 </div>
+
+<div style="height: 40px"></div>
+<h3>Work/Companies Images</h3>
+<div style="height: 20px"></div>
+
+<!--<p>This is now the anti-pattern. Please decide if we are going to use just img or a background-image and why use background-image over image tag.</p>-->
+
+<img src="./assets/toolkit/images/company-logos/lexus.png">
+<img src="./assets/toolkit/images/company-logos/olx.png">
+<img src="./assets/toolkit/images/company-logos/uxpin.png">
+<img src="./assets/toolkit/images/company-logos/uap.png">
+
+<div style="height: 40px"></div>
+<h3>Header Logo Image</h3>
+<div style="height: 20px"></div>
+
+<!-- why use a background logo on this one -->
+
+<div style="background-color: #0D2132; height: 100px;">
+	<a href="#" class="logo">
+	</a>
+</div>
+
+<div style="height: 40px"></div>
+<h3>Footer Logo Image</h3>
+<div style="height: 20px"></div>
+
+<img class="footer-logo" src="assets/toolkit/images/stock/footer-logo.png" alt="" />
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;h3&gt;Hero Image&lt;/h3&gt;
+	<pre><code class="language-markup">&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Hero Image&lt;/h3&gt;
 &lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
 
 &lt;div class&#x3D;&quot;hero-section-example-images&quot;&gt;
@@ -608,7 +641,35 @@
 &lt;/div&gt;
 &lt;div class&#x3D;&quot;services-card&quot;&gt;
 	&lt;div class&#x3D;&quot;image image-3&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Work/Companies Images&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;!--&lt;p&gt;This is now the anti-pattern. Please decide if we are going to use just img or a background-image and why use background-image over image tag.&lt;/p&gt;--&gt;
+
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/lexus.png&quot;&gt;
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/olx.png&quot;&gt;
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/uxpin.png&quot;&gt;
+&lt;img src&#x3D;&quot;./assets/toolkit/images/company-logos/uap.png&quot;&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Header Logo Image&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;!-- why use a background logo on this one --&gt;
+
+&lt;div style&#x3D;&quot;background-color: #0D2132; height: 100px;&quot;&gt;
+	&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;logo&quot;&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div style&#x3D;&quot;height: 40px&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;Footer Logo Image&lt;/h3&gt;
+&lt;div style&#x3D;&quot;height: 20px&quot;&gt;&lt;/div&gt;
+
+&lt;img class&#x3D;&quot;footer-logo&quot; src&#x3D;&quot;assets/toolkit/images/stock/footer-logo.png&quot; alt&#x3D;&quot;&quot; /&gt;</code></pre>
 </div>
 
 
