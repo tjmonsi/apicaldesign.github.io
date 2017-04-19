@@ -6,7 +6,16 @@
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
+  &__block--dark {
+    box-shadow: none;
+    color: map-get($colors, light);
+  }
+
   &__header {
+    text-align: left;
+  }
+
+  &__header--center {
     text-align: center;
   }
 

@@ -88,40 +88,10 @@
 				</li>
 		
 				<li>
-					<a href="./components.html" class="f-menu__heading">Components</a>
-					<ul>
-						<li>
-							<a href="./components.html#checkbox">Checkbox</a>
-						</li>
-						<li>
-							<a href="./components.html#lists">Lists</a>
-						</li>
-						<li>
-							<a href="./components.html#paragraph">Paragraph</a>
-						</li>
-						<li>
-							<a href="./components.html#radio">Radio</a>
-						</li>
-						<li>
-							<a href="./components.html#select">Select</a>
-						</li>
-						<li>
-							<a href="./components.html#table">Table</a>
-						</li>
-						<li>
-							<a href="./components.html#text-input">Text Input</a>
-						</li>
-						<li>
-							<a href="./components.html#textarea">Textarea</a>
-						</li>
-					</ul>
-				</li>
-		
-				<li>
 					<a href="./molecules.html" class="f-menu__heading">Molecules</a>
 					<ul>
 						<li>
-							<a href="./molecules.html#01-hero-section">Hero Section</a>
+							<a href="./molecules.html#01-hero-header">Hero Header</a>
 						</li>
 						<li>
 							<a href="./molecules.html#02-subscribe">Subscribe</a>
@@ -132,32 +102,20 @@
 						<li>
 							<a href="./molecules.html#04-service">Service</a>
 						</li>
-					</ul>
-				</li>
-		
-				<li>
-					<a href="./structures.html" class="f-menu__heading">Structures</a>
-					<ul>
 						<li>
-							<a href="./structures.html#form">Form</a>
+							<a href="./molecules.html#05-input-label-group">Input Label Group</a>
 						</li>
 					</ul>
 				</li>
 		
 				<li>
-					<a href="pages.html" class="f-menu__heading">Pages</a>
+					<a href="./organisms.html" class="f-menu__heading">Organisms</a>
 					<ul>
 						<li>
-							<a href="pages/home.html">Home</a>
+							<a href="./organisms.html#01-hero-section">Hero Section</a>
 						</li>
-					</ul>
-				</li>
-		
-				<li>
-					<a href="docs.html" class="f-menu__heading">Docs</a>
-					<ul>
 						<li>
-							<a href="docs.html#javascript">Javascript</a>
+							<a href="./organisms.html#05-contact-form">Contact Form</a>
 						</li>
 					</ul>
 				</li>
@@ -182,10 +140,10 @@
 <h1 data-f-toggle="labels">Molecules</h1>
 
 
-<div class="f-item-group" id="01-hero-section">
+<div class="f-item-group" id="01-hero-header">
 
 	<div class="f-item-heading-group" data-f-toggle="labels">
-		<h2 class="f-item-heading">Hero Section</h2>
+		<h2 class="f-item-heading">Hero Header</h2>
 		<div class="f-item-controls">
 			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
 				<svg>
@@ -206,13 +164,17 @@
 	<div style="height: 110px; z-index: 1000; background: white;">
 </div>
 
-<section class="hero-section__block">
-	<div class="hero-section__background-group">
-		<div class="hero-section__background-color"></div>
-		<div class="hero-section__background-image"></div>
-	</div>
-	<header class="hero-section__header hero-section__header--center">
+<section class="example-block__dark">
+	<header class="hero-header__block hero-header__block--center">
 		<img class="hero-section__logo" src="assets/toolkit/images/logos/apical-logo-black.svg" />
+		<h1 class="hero-section__title">HERO SECTION TITLE</h1>
+		<p class="hero-section__caption">Hero Section title caption that is long for the caption title</p>
+		<a href="" class="btn">Anchor CTA Button</a>
+	</header>
+</section>
+
+<section class="example-block__dark">
+	<header class="hero-header__block">
 		<h1 class="hero-section__title">HERO SECTION TITLE</h1>
 		<p class="hero-section__caption">Hero Section title caption that is long for the caption title</p>
 		<a href="" class="btn">Anchor CTA Button</a>
@@ -223,13 +185,17 @@
 	<pre><code class="language-markup">&lt;div style&#x3D;&quot;height: 110px; z-index: 1000; background: white;&quot;&gt;
 &lt;/div&gt;
 
-&lt;section class&#x3D;&quot;hero-section__block&quot;&gt;
-	&lt;div class&#x3D;&quot;hero-section__background-group&quot;&gt;
-		&lt;div class&#x3D;&quot;hero-section__background-color&quot;&gt;&lt;/div&gt;
-		&lt;div class&#x3D;&quot;hero-section__background-image&quot;&gt;&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;header class&#x3D;&quot;hero-section__header hero-section__header--center&quot;&gt;
+&lt;section class&#x3D;&quot;example-block__dark&quot;&gt;
+	&lt;header class&#x3D;&quot;hero-header__block hero-header__block--center&quot;&gt;
 		&lt;img class&#x3D;&quot;hero-section__logo&quot; src&#x3D;&quot;assets/toolkit/images/logos/apical-logo-black.svg&quot; /&gt;
+		&lt;h1 class&#x3D;&quot;hero-section__title&quot;&gt;HERO SECTION TITLE&lt;/h1&gt;
+		&lt;p class&#x3D;&quot;hero-section__caption&quot;&gt;Hero Section title caption that is long for the caption title&lt;/p&gt;
+		&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;btn&quot;&gt;Anchor CTA Button&lt;/a&gt;
+	&lt;/header&gt;
+&lt;/section&gt;
+
+&lt;section class&#x3D;&quot;example-block__dark&quot;&gt;
+	&lt;header class&#x3D;&quot;hero-header__block&quot;&gt;
 		&lt;h1 class&#x3D;&quot;hero-section__title&quot;&gt;HERO SECTION TITLE&lt;/h1&gt;
 		&lt;p class&#x3D;&quot;hero-section__caption&quot;&gt;Hero Section title caption that is long for the caption title&lt;/p&gt;
 		&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;btn&quot;&gt;Anchor CTA Button&lt;/a&gt;
@@ -265,7 +231,7 @@
 </div>
 <div class="f-item-preview">
 	<div class="subscribe__block">
-	<header class="subscribe__header">
+	<header class="subscribe__header subscribe__header--center">
 		<h3 class="subscribe__title">Subscribe Title Block</h3>
 		<p class="subscribe__caption">Subscribe caption description on what benefits this block can give</p>
 	</header>
@@ -274,10 +240,23 @@
 		<button class="btn" type="submit">Submit</button>
 	</form>
 </div>
+
+<div class="example-block__dark">
+	<div class="subscribe__block subscribe__block--dark">
+		<header class="subscribe__header">
+			<h6 class="subscribe__title">Subscribe Title Block</h6>
+			<p class="subscribe__caption">Subscribe caption description on what benefits this block can give</p>
+		</header>
+		<form class="subscribe__form">
+			<input class="form__input-email" placeholder="Email placeholder" type="email" />
+			<button class="btn" type="submit">Submit</button>
+		</form>
+	</div>
+</div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
 	<pre><code class="language-markup">&lt;div class&#x3D;&quot;subscribe__block&quot;&gt;
-	&lt;header class&#x3D;&quot;subscribe__header&quot;&gt;
+	&lt;header class&#x3D;&quot;subscribe__header subscribe__header--center&quot;&gt;
 		&lt;h3 class&#x3D;&quot;subscribe__title&quot;&gt;Subscribe Title Block&lt;/h3&gt;
 		&lt;p class&#x3D;&quot;subscribe__caption&quot;&gt;Subscribe caption description on what benefits this block can give&lt;/p&gt;
 	&lt;/header&gt;
@@ -285,6 +264,19 @@
 		&lt;input class&#x3D;&quot;form__input-email&quot; placeholder&#x3D;&quot;Email placeholder&quot; type&#x3D;&quot;email&quot; /&gt;
 		&lt;button class&#x3D;&quot;btn&quot; type&#x3D;&quot;submit&quot;&gt;Submit&lt;/button&gt;
 	&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;example-block__dark&quot;&gt;
+	&lt;div class&#x3D;&quot;subscribe__block subscribe__block--dark&quot;&gt;
+		&lt;header class&#x3D;&quot;subscribe__header&quot;&gt;
+			&lt;h6 class&#x3D;&quot;subscribe__title&quot;&gt;Subscribe Title Block&lt;/h6&gt;
+			&lt;p class&#x3D;&quot;subscribe__caption&quot;&gt;Subscribe caption description on what benefits this block can give&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;form class&#x3D;&quot;subscribe__form&quot;&gt;
+			&lt;input class&#x3D;&quot;form__input-email&quot; placeholder&#x3D;&quot;Email placeholder&quot; type&#x3D;&quot;email&quot; /&gt;
+			&lt;button class&#x3D;&quot;btn&quot; type&#x3D;&quot;submit&quot;&gt;Submit&lt;/button&gt;
+		&lt;/form&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 </div>
 
@@ -371,6 +363,9 @@
 			<li>List 3 Service that is beneficial to others</li>
 			<li>List 4 Service that is beneficial to you</li>
 		</ul>
+		<div class="service__cta-block">
+			<a href="" class="btn">Anchor CTA Button</a>
+		</div>
 	</div>
 </div>
 </div>
@@ -388,7 +383,53 @@
 			&lt;li&gt;List 3 Service that is beneficial to others&lt;/li&gt;
 			&lt;li&gt;List 4 Service that is beneficial to you&lt;/li&gt;
 		&lt;/ul&gt;
+		&lt;div class&#x3D;&quot;service__cta-block&quot;&gt;
+			&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;btn&quot;&gt;Anchor CTA Button&lt;/a&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+
+</div>
+
+<hr>
+
+
+<div class="f-item-group" id="05-input-label-group">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Input Label Group</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+				<svg>
+					<use xlink:href="#f-icon-notes" />
+				</svg>
+			</span>
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div><div class="f-item-notes" data-f-toggle="notes">
+	<p>These are notes associated with this <code>input-label-group</code> molecule.</p>
+
+</div>
+<div class="f-item-preview">
+	<div class="input-label-group__block">
+	<label class="input-label-group__label">
+    This is a Label
+  </label>
+	<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+	&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+    This is a Label
+  &lt;/label&gt;
+	&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
 &lt;/div&gt;</code></pre>
 </div>
 

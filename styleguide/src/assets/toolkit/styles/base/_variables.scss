@@ -68,3 +68,9 @@ $menu-width: 14rem;
   padding: 0;
   border: 0;
 }
+
+@mixin media($max-width: 640px) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
+}
