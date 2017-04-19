@@ -281,7 +281,7 @@
   }
 
   .hero-section > .container {
-    padding: 288px 48px 320px;
+    padding: 288px 0px 320px 0px;
     height: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;

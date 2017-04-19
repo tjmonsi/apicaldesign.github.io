@@ -170,16 +170,68 @@
 
 
 	
-<h1 data-f-toggle="labels">Docs</h1>
+<h1 data-f-toggle="labels">Molecules</h1>
 
 
-	<div class="f-item-group">
-		<h2 id="javascript"><a href="#javascript">Javascript</a></h2>
-		<p>This is a markdown document.</p>
-<pre><code class="language-javascript">var foo = 'bar'
-</code></pre>
+<div class="f-item-group" id="01-hero-section">
 
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Hero Section</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
+				<svg>
+					<use xlink:href="#f-icon-notes" />
+				</svg>
+			</span>
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div><div class="f-item-notes" data-f-toggle="notes">
+	<p>These are notes associated with this <code>hero-section</code> molecule.</p>
+
+</div>
+<div class="f-item-preview">
+	<div style="height: 110px; z-index: 1000; background: white;">
+</div>
+
+<section class="hero-section__block">
+	<div class="hero-section__background-group">
+		<div class="hero-section__background-color"></div>
+		<div class="hero-section__background-image"></div>
 	</div>
+	<header class="hero-section__header hero-section__header--center">
+		<img class="hero-section__logo" src="assets/toolkit/images/logos/apical-logo-black.svg" />
+		<h1 class="hero-section__title">HERO SECTION TITLE</h1>
+		<p class="hero-section__caption">Hero Section title caption that is long for the caption title</p>
+		<a href="" class="btn">Anchor CTA Button</a>
+	</header>
+</section>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div style&#x3D;&quot;height: 110px; z-index: 1000; background: white;&quot;&gt;
+&lt;/div&gt;
+
+&lt;section class&#x3D;&quot;hero-section__block&quot;&gt;
+	&lt;div class&#x3D;&quot;hero-section__background-group&quot;&gt;
+		&lt;div class&#x3D;&quot;hero-section__background-color&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;hero-section__background-image&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;header class&#x3D;&quot;hero-section__header hero-section__header--center&quot;&gt;
+		&lt;img class&#x3D;&quot;hero-section__logo&quot; src&#x3D;&quot;assets/toolkit/images/logos/apical-logo-black.svg&quot; /&gt;
+		&lt;h1 class&#x3D;&quot;hero-section__title&quot;&gt;HERO SECTION TITLE&lt;/h1&gt;
+		&lt;p class&#x3D;&quot;hero-section__caption&quot;&gt;Hero Section title caption that is long for the caption title&lt;/p&gt;
+		&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;btn&quot;&gt;Anchor CTA Button&lt;/a&gt;
+	&lt;/header&gt;
+&lt;/section&gt;</code></pre>
+</div>
+
+
+</div>
+
+<hr>
 
 
 
