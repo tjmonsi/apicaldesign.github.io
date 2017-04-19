@@ -1,0 +1,18 @@
+.form__input-text, .form__input-email, .form__select, .form__textarea {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  border: 1px solid #0D2132;
+  margin: 0 auto;
+  padding: 16px 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+.form_textarea {
+  resize: none;
+  height: 160px;
+  border-radius: 0;
+}

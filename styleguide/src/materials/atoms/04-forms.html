@@ -3,32 +3,27 @@ notes: |
   These are notes associated with this `form` component.
 ---
 
-<h3>Contact Form inputs</h3>
+<h3>Form inputs</h3>
 
-<div style="height: 20px;"></div>
-
-<div class="contactform-input">
-  <input class="input" name="name" placeholder="Your Name Here" type="text"></input>
-</div>
-<div class="contactform-input">
-  <input class="input" name="email" placeholder="Your Email Here" type="email"></input>
+<div style="padding: 0px 0px 20px">
+  <input class="form__input-text" placeholder="Placeholder" type="text"/>
 </div>
 
-<div class="contactform-input">
-  <select class="select" name="services">
-    <option>User Experience Reviews</option>
-    <option>Design Solutions</option>
-    <option>Research Solutions</option>
-    <option>Team Assistance</option>
-    <option>Other</option>
+<div style="padding: 0px 0px 20px">
+  <input class="form__input-email" placeholder="Email placeholder" type="email" />
+</div>
+
+<div style="padding: 0px 0px 20px">
+  <select class="form__select">
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    <option>Option 4</option>
+    <option>Option 5</option>
   </select>
 </div>
-<div class="contactform-input">
-  <textarea class="textarea" name="message" placeholder="Is there anything else you'd like us to know?" type="paragraph"></textarea>
+
+<div style="padding: 0px 0px 20px">
+  <textarea class="form__textarea" placeholder="This is a textarea?" type="paragraph"></textarea>
 </div>
 
-<h3>Subscription Form inputs</h3>
-
-<div style="height: 20px;"></div>
-
-<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email Here">

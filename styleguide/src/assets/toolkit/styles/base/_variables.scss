@@ -55,10 +55,22 @@ $menu-width: 14rem;
             flex-direction: column;
 }
 
-@mixin font-karen {
+@mixin font-karla {
   font-family: 'Karla', sans-serif;
 }
 
 @mixin font-nunito {
   font-family: 'Nunito', sans-serif;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@mixin media($max-width: 640px) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
 }
