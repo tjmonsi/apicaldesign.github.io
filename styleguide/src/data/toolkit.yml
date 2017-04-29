@@ -1,6 +1,7 @@
 colors:
   primary:
     Main: "#0D2132"
+    Faded: 'rgba(13,33,50,0.7)'
   secondary:
     Main: "	#70B3B8"
     Light: "#7DC9CF"

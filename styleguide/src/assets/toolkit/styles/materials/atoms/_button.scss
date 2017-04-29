@@ -1,5 +1,5 @@
 .btn {
-  font-family: 'Nunito', sans-serif;
+  @include font-nunito;
   padding: 16px 30px;
   display: inline-block;
   letter-spacing: 1px;
@@ -12,10 +12,25 @@
   border: 0px;
   margin: 0px;
   font-size: inherit;
+
+  &:hover {
+    background-color: map-get($colors, secondary-light);
+  }
 }
 
-.btn:hover{
-  background-color: map-get($colors, secondary-light);
+.menu-button {
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 16px 30px;
+  background: none;
+  color: #fff;
+  right: 0;
+  transition: background-color 200ms ease;
+
+  &:hover {
+    background-color: rgba(255,255,255,0.1)
+  }
 }
 
 
