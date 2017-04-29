@@ -108,7 +108,10 @@ gulp.task('favicon', function () {
 // assemble
 gulp.task('assemble', function (done) {
 	assemble({
-		logErrors: config.dev
+		logErrors: config.dev,
+		helpers: {
+			markdown: require('helper-markdown')
+		}
 	});
 	done();
 });

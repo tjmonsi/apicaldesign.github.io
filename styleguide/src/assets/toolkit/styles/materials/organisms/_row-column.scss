@@ -1,0 +1,13 @@
+.row__block {
+  @include layout-horizontal;
+  @include layout-center;
+  @include layout-wrap;
+
+  @include media {
+    display: block;
+  }
+}
+
+.column__block {
+  @include layout-flex;
+}

@@ -1,0 +1,18 @@
+.navigation-link {
+  @include font-nunito;
+  padding: 32px 24px;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: map-get($colors, light);
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  border: 0px;
+  margin: 0px;
+  font-size: 16px;
+
+  &:hover {
+    background-color: rgba(255,255,255,0.1)
+  }
+}

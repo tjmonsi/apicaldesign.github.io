@@ -1,0 +1,9 @@
+.navigation-header {
+  @include media(850px) {
+    padding: 0 24px;
+
+    &__block {
+      display: none;
+    }
+  }
+}
