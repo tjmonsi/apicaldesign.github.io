@@ -135,6 +135,9 @@
 						<li>
 							<a href="./organisms.html#05-contact-form">Contact Form</a>
 						</li>
+						<li>
+							<a href="./organisms.html#06-footer">Footer</a>
+						</li>
 					</ul>
 				</li>
 		
@@ -191,7 +194,7 @@
 	<div style="position: relative">
 	<header class="navigation-section navigation-section-test">
 		<div class="header__logo">
-			<img class="header__logo-image" src="assets/toolkit/images/logos/apical-logo-black.svg" /><span class="header__logo-text">APICAL DESIGN</span>
+			<img class="header__logo-image" src="assets/toolkit/images/logos/apical-logo-black.svg" /><span class="header__logo-text navigation-section__header-logo">APICAL DESIGN</span>
 		</div>
 
 		<div class="navigation-section__spacer"></div>
@@ -212,7 +215,7 @@
 	<pre><code class="language-markup">&lt;div style&#x3D;&quot;position: relative&quot;&gt;
 	&lt;header class&#x3D;&quot;navigation-section navigation-section-test&quot;&gt;
 		&lt;div class&#x3D;&quot;header__logo&quot;&gt;
-			&lt;img class&#x3D;&quot;header__logo-image&quot; src&#x3D;&quot;assets/toolkit/images/logos/apical-logo-black.svg&quot; /&gt;&lt;span class&#x3D;&quot;header__logo-text&quot;&gt;APICAL DESIGN&lt;/span&gt;
+			&lt;img class&#x3D;&quot;header__logo-image&quot; src&#x3D;&quot;assets/toolkit/images/logos/apical-logo-black.svg&quot; /&gt;&lt;span class&#x3D;&quot;header__logo-text navigation-section__header-logo&quot;&gt;APICAL DESIGN&lt;/span&gt;
 		&lt;/div&gt;
 
 		&lt;div class&#x3D;&quot;navigation-section__spacer&quot;&gt;&lt;/div&gt;
@@ -380,6 +383,12 @@
 	<div class="column__block" style="border: 1px solid black; margin: 10px; padding: 20px;">Column 1</div>
 	<div class="column__block" style="border: 1px solid black; margin: 10px; padding: 20px;">Column 2</div>
 </div>
+
+<div class="row__block">
+	<div class="column__block column__block-min-height" style="border: 1px solid black; padding: 20px;">Column 1</div>
+	<div class="column__block column__block-1 column__block-min-height" style="border: 1px solid black; padding: 20px;">Column 2</div>
+	<div class="column__block column__block-2 column__block-min-height" style="border: 1px solid black; padding: 20px;">Column 3</div>
+</div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
 	<pre><code class="language-markup">&lt;div class&#x3D;&quot;row__block&quot;&gt;
@@ -391,6 +400,12 @@
 &lt;div class&#x3D;&quot;row__block&quot;&gt;
 	&lt;div class&#x3D;&quot;column__block&quot; style&#x3D;&quot;border: 1px solid black; margin: 10px; padding: 20px;&quot;&gt;Column 1&lt;/div&gt;
 	&lt;div class&#x3D;&quot;column__block&quot; style&#x3D;&quot;border: 1px solid black; margin: 10px; padding: 20px;&quot;&gt;Column 2&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;row__block&quot;&gt;
+	&lt;div class&#x3D;&quot;column__block column__block-min-height&quot; style&#x3D;&quot;border: 1px solid black; padding: 20px;&quot;&gt;Column 1&lt;/div&gt;
+	&lt;div class&#x3D;&quot;column__block column__block-1 column__block-min-height&quot; style&#x3D;&quot;border: 1px solid black; padding: 20px;&quot;&gt;Column 2&lt;/div&gt;
+	&lt;div class&#x3D;&quot;column__block column__block-2 column__block-min-height&quot; style&#x3D;&quot;border: 1px solid black; padding: 20px;&quot;&gt;Column 3&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 </div>
 
@@ -422,112 +437,129 @@
 
 </div>
 <div class="f-item-preview">
-	<div class="contact-form__block">
-	<header class="contact-form__header">
-		<h3 class="contact-form__title section__title section__title--center">Contact Form Title Block</h3>
-	</header>
 	<form class="contact-form__form">
-		<div class="contact-form__column">
-			<div class="input-label-group__block">
-				<label class="input-label-group__label">
-          This is a Label
-        </label>
-				<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
-			</div>
-
-			<div class="input-label-group__block">
-				<label class="input-label-group__label">
-          This is a Label
-        </label>
-				<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
-			</div>
-
-			<div class="input-label-group__block">
-				<label class="input-label-group__label">
-          This is a Label
-        </label>
-				<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
-			</div>
-
+	<div class="contact-form__column">
+		<div class="input-label-group__block">
+			<label class="input-label-group__label">
+        This is a Label
+      </label>
+			<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
 		</div>
-		<div class="contact-form__column">
-			<div class="input-label-group__block">
-				<label class="input-label-group__label">
-          This is a Label
-        </label>
-				<select class="form__select input-label-group__input">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-          <option>Option 4</option>
-          <option>Option 5</option>
-        </select>
-			</div>
 
-			<div class="input-label-group__block">
-				<label class="input-label-group__label">
-          This is a Label
-        </label>
-				<textarea class="form__textarea input-label-group__input contact-form__textarea" placeholder="This is a textarea?" type="paragraph"></textarea>
-			</div>
-
+		<div class="input-label-group__block">
+			<label class="input-label-group__label">
+        This is a Label
+      </label>
+			<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
 		</div>
-	</form>
-</div>
+
+		<div class="input-label-group__block">
+			<label class="input-label-group__label">
+        This is a Label
+      </label>
+			<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
+		</div>
+
+	</div>
+	<div class="contact-form__column">
+		<div class="input-label-group__block">
+			<label class="input-label-group__label">
+        This is a Label
+      </label>
+			<select class="form__select input-label-group__input">
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+        <option>Option 4</option>
+        <option>Option 5</option>
+      </select>
+		</div>
+
+		<div class="input-label-group__block">
+			<label class="input-label-group__label">
+        This is a Label
+      </label>
+			<textarea class="form__textarea input-label-group__input contact-form__textarea" placeholder="This is a textarea?" type="paragraph"></textarea>
+		</div>
+
+	</div>
+</form>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;div class&#x3D;&quot;contact-form__block&quot;&gt;
-	&lt;header class&#x3D;&quot;contact-form__header&quot;&gt;
-		&lt;h3 class&#x3D;&quot;contact-form__title section__title section__title--center&quot;&gt;Contact Form Title Block&lt;/h3&gt;
-	&lt;/header&gt;
-	&lt;form class&#x3D;&quot;contact-form__form&quot;&gt;
-		&lt;div class&#x3D;&quot;contact-form__column&quot;&gt;
-			&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
-				&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
-          This is a Label
-        &lt;/label&gt;
-				&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
-			&lt;/div&gt;
-
-			&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
-				&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
-          This is a Label
-        &lt;/label&gt;
-				&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
-			&lt;/div&gt;
-
-			&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
-				&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
-          This is a Label
-        &lt;/label&gt;
-				&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
-			&lt;/div&gt;
-
+	<pre><code class="language-markup">&lt;form class&#x3D;&quot;contact-form__form&quot;&gt;
+	&lt;div class&#x3D;&quot;contact-form__column&quot;&gt;
+		&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+			&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+        This is a Label
+      &lt;/label&gt;
+			&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
 		&lt;/div&gt;
-		&lt;div class&#x3D;&quot;contact-form__column&quot;&gt;
-			&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
-				&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
-          This is a Label
-        &lt;/label&gt;
-				&lt;select class&#x3D;&quot;form__select input-label-group__input&quot;&gt;
-          &lt;option&gt;Option 1&lt;/option&gt;
-          &lt;option&gt;Option 2&lt;/option&gt;
-          &lt;option&gt;Option 3&lt;/option&gt;
-          &lt;option&gt;Option 4&lt;/option&gt;
-          &lt;option&gt;Option 5&lt;/option&gt;
-        &lt;/select&gt;
-			&lt;/div&gt;
 
-			&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
-				&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
-          This is a Label
-        &lt;/label&gt;
-				&lt;textarea class&#x3D;&quot;form__textarea input-label-group__input contact-form__textarea&quot; placeholder&#x3D;&quot;This is a textarea?&quot; type&#x3D;&quot;paragraph&quot;&gt;&lt;/textarea&gt;
-			&lt;/div&gt;
-
+		&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+			&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+        This is a Label
+      &lt;/label&gt;
+			&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
 		&lt;/div&gt;
-	&lt;/form&gt;
-&lt;/div&gt;</code></pre>
+
+		&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+			&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+        This is a Label
+      &lt;/label&gt;
+			&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+	&lt;div class&#x3D;&quot;contact-form__column&quot;&gt;
+		&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+			&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+        This is a Label
+      &lt;/label&gt;
+			&lt;select class&#x3D;&quot;form__select input-label-group__input&quot;&gt;
+        &lt;option&gt;Option 1&lt;/option&gt;
+        &lt;option&gt;Option 2&lt;/option&gt;
+        &lt;option&gt;Option 3&lt;/option&gt;
+        &lt;option&gt;Option 4&lt;/option&gt;
+        &lt;option&gt;Option 5&lt;/option&gt;
+      &lt;/select&gt;
+		&lt;/div&gt;
+
+		&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+			&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+        This is a Label
+      &lt;/label&gt;
+			&lt;textarea class&#x3D;&quot;form__textarea input-label-group__input contact-form__textarea&quot; placeholder&#x3D;&quot;This is a textarea?&quot; type&#x3D;&quot;paragraph&quot;&gt;&lt;/textarea&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/form&gt;</code></pre>
+</div>
+
+
+</div>
+
+<hr>
+<div style="height: 20px;"></div>
+
+
+<div class="f-item-group" id="06-footer">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Footer</h2>
+		<div class="f-item-controls">
+			
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div>
+<div class="f-item-preview">
+	
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup"></code></pre>
 </div>
 
 

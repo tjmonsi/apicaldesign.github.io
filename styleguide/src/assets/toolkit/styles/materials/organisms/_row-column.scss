@@ -1,13 +1,52 @@
-.row__block {
-  @include layout-horizontal;
-  @include layout-center;
-  @include layout-wrap;
+.row {
+  &__block {
+    @include layout-horizontal;
+    @include layout-center;
+    @include layout-wrap;
 
-  @include media {
-    display: block;
+    @include media {
+      display: block;
+    }
   }
+
 }
 
-.column__block {
-  @include layout-flex;
+.column {
+  &__block {
+    @include layout-flex;
+  }
+
+  &__block-min-height {
+    position: relative;
+    min-height: 420px;
+
+    @include media(1000px) {
+      min-height: 550px;
+    }
+
+    @include media(850px) {
+      min-height: 660px;
+    }
+
+    @include media {
+      min-height: 0px;
+    }
+
+  }
+
+  &__block-1 {
+    margin-top: 32px;
+
+    @include media {
+      margin-top: 10px;
+    }
+  }
+
+  &__block-2 {
+    margin-top: 64px;
+
+    @include media {
+      margin-top: 10px;
+    }
+  }
 }
