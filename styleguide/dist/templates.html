@@ -135,6 +135,9 @@
 						<li>
 							<a href="./organisms.html#05-contact-form">Contact Form</a>
 						</li>
+						<li>
+							<a href="./organisms.html#06-footer">Footer</a>
+						</li>
 					</ul>
 				</li>
 		
@@ -188,24 +191,27 @@
 
 </div>
 <div class="f-item-preview">
-	<div style="height: 110px; z-index: 1000; background: white;">
+	<div style="height: 110px; z-index: 1000; background: white; margin: 0 -1em;">
 </div>
 
-<div style="position: relative">
+<div style="position: relative; margin: 0 -1em;">
 	<header class="navigation-section navigation-section-test">
 		<div class="header__logo">
-			<img class="header__logo-image" src="assets/toolkit/images/logos/apical-logo-black.svg" /><span class="header__logo-text">APICAL DESIGN</span>
+			<img class="header__logo-image" src="assets/toolkit/images/logos/apical-logo-black.svg" /><span class="header__logo-text navigation-section__header-logo">APICAL DESIGN</span>
 		</div>
 
 		<div class="navigation-section__spacer"></div>
 
-		<nav>
+		<nav class="navigation-header__block">
 			<a href="" class="navigation-link">UX Reviews</a>
 			<a href="" class="navigation-link">About Us</a>
 			<a href="" class="navigation-link">Our Solutions</a>
+			<a href="" class="navigation-link">Training</a>
 		</nav>
 
-		<a href="" class="btn">Anchor Button</a>
+		<a href="" class="btn navigation-section__button">Contact Us</a>
+
+		<button class="menu-button navigation-section__sidebar-menu-button">MENU</button>
 	</header>
 
 	<section class="hero-section__block">
@@ -251,27 +257,96 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
 		</div>
 	</section>
+
+	<section class="text-section__block">
+		<header class="text-section__header">
+			<h3 class="text-section__title section__title section__title--center">TEAM ASSISTANCE</h3>
+		</header>
+
+		<div class="text-section__container">
+			<p>We provide general assistance to your design workflow on a monthly retainer. These services include: wireframing, documentation, usability testing, visual design, and more.</p>
+
+			<p>You can also have our team members assist your design team for a certain period of time.</p>
+		</div>
+	</section>
+
+	<section class="text-section__block">
+		<header class="text-section__header">
+			<h3 class="text-section__header__title section__title section__title--center">LET’S BUILD SOMETHING AMAZING, TOGETHER</h3>
+		</header>
+
+		<form class="contact-form__form">
+			<div class="contact-form__column">
+				<div class="input-label-group__block">
+					<label class="input-label-group__label">
+            This is a Label
+          </label>
+					<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
+				</div>
+
+				<div class="input-label-group__block">
+					<label class="input-label-group__label">
+            This is a Label
+          </label>
+					<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
+				</div>
+
+				<div class="input-label-group__block">
+					<label class="input-label-group__label">
+            This is a Label
+          </label>
+					<input class="form__input-text input-label-group__input" placeholder="Placeholder" type="text" />
+				</div>
+
+			</div>
+			<div class="contact-form__column">
+				<div class="input-label-group__block">
+					<label class="input-label-group__label">
+            This is a Label
+          </label>
+					<select class="form__select input-label-group__input">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+          </select>
+				</div>
+
+				<div class="input-label-group__block">
+					<label class="input-label-group__label">
+            This is a Label
+          </label>
+					<textarea class="form__textarea input-label-group__input contact-form__textarea" placeholder="This is a textarea?" type="paragraph"></textarea>
+				</div>
+
+			</div>
+		</form>
+	</section>
 </div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;div style&#x3D;&quot;height: 110px; z-index: 1000; background: white;&quot;&gt;
+	<pre><code class="language-markup">&lt;div style&#x3D;&quot;height: 110px; z-index: 1000; background: white; margin: 0 -1em;&quot;&gt;
 &lt;/div&gt;
 
-&lt;div style&#x3D;&quot;position: relative&quot;&gt;
+&lt;div style&#x3D;&quot;position: relative; margin: 0 -1em;&quot;&gt;
 	&lt;header class&#x3D;&quot;navigation-section navigation-section-test&quot;&gt;
 		&lt;div class&#x3D;&quot;header__logo&quot;&gt;
-			&lt;img class&#x3D;&quot;header__logo-image&quot; src&#x3D;&quot;assets/toolkit/images/logos/apical-logo-black.svg&quot; /&gt;&lt;span class&#x3D;&quot;header__logo-text&quot;&gt;APICAL DESIGN&lt;/span&gt;
+			&lt;img class&#x3D;&quot;header__logo-image&quot; src&#x3D;&quot;assets/toolkit/images/logos/apical-logo-black.svg&quot; /&gt;&lt;span class&#x3D;&quot;header__logo-text navigation-section__header-logo&quot;&gt;APICAL DESIGN&lt;/span&gt;
 		&lt;/div&gt;
 
 		&lt;div class&#x3D;&quot;navigation-section__spacer&quot;&gt;&lt;/div&gt;
 
-		&lt;nav&gt;
+		&lt;nav class&#x3D;&quot;navigation-header__block&quot;&gt;
 			&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;navigation-link&quot;&gt;UX Reviews&lt;/a&gt;
 			&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;navigation-link&quot;&gt;About Us&lt;/a&gt;
 			&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;navigation-link&quot;&gt;Our Solutions&lt;/a&gt;
+			&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;navigation-link&quot;&gt;Training&lt;/a&gt;
 		&lt;/nav&gt;
 
-		&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;btn&quot;&gt;Anchor Button&lt;/a&gt;
+		&lt;a href&#x3D;&quot;&quot; class&#x3D;&quot;btn navigation-section__button&quot;&gt;Contact Us&lt;/a&gt;
+
+		&lt;button class&#x3D;&quot;menu-button navigation-section__sidebar-menu-button&quot;&gt;MENU&lt;/button&gt;
 	&lt;/header&gt;
 
 	&lt;section class&#x3D;&quot;hero-section__block&quot;&gt;
@@ -316,6 +391,72 @@
 		&lt;div class&#x3D;&quot;text-section__container&quot;&gt;
 			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.&lt;/p&gt;
 		&lt;/div&gt;
+	&lt;/section&gt;
+
+	&lt;section class&#x3D;&quot;text-section__block&quot;&gt;
+		&lt;header class&#x3D;&quot;text-section__header&quot;&gt;
+			&lt;h3 class&#x3D;&quot;text-section__title section__title section__title--center&quot;&gt;TEAM ASSISTANCE&lt;/h3&gt;
+		&lt;/header&gt;
+
+		&lt;div class&#x3D;&quot;text-section__container&quot;&gt;
+			&lt;p&gt;We provide general assistance to your design workflow on a monthly retainer. These services include: wireframing, documentation, usability testing, visual design, and more.&lt;/p&gt;
+
+			&lt;p&gt;You can also have our team members assist your design team for a certain period of time.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/section&gt;
+
+	&lt;section class&#x3D;&quot;text-section__block&quot;&gt;
+		&lt;header class&#x3D;&quot;text-section__header&quot;&gt;
+			&lt;h3 class&#x3D;&quot;text-section__header__title section__title section__title--center&quot;&gt;LET’S BUILD SOMETHING AMAZING, TOGETHER&lt;/h3&gt;
+		&lt;/header&gt;
+
+		&lt;form class&#x3D;&quot;contact-form__form&quot;&gt;
+			&lt;div class&#x3D;&quot;contact-form__column&quot;&gt;
+				&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+					&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+            This is a Label
+          &lt;/label&gt;
+					&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
+				&lt;/div&gt;
+
+				&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+					&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+            This is a Label
+          &lt;/label&gt;
+					&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
+				&lt;/div&gt;
+
+				&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+					&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+            This is a Label
+          &lt;/label&gt;
+					&lt;input class&#x3D;&quot;form__input-text input-label-group__input&quot; placeholder&#x3D;&quot;Placeholder&quot; type&#x3D;&quot;text&quot; /&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+			&lt;div class&#x3D;&quot;contact-form__column&quot;&gt;
+				&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+					&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+            This is a Label
+          &lt;/label&gt;
+					&lt;select class&#x3D;&quot;form__select input-label-group__input&quot;&gt;
+            &lt;option&gt;Option 1&lt;/option&gt;
+            &lt;option&gt;Option 2&lt;/option&gt;
+            &lt;option&gt;Option 3&lt;/option&gt;
+            &lt;option&gt;Option 4&lt;/option&gt;
+            &lt;option&gt;Option 5&lt;/option&gt;
+          &lt;/select&gt;
+				&lt;/div&gt;
+
+				&lt;div class&#x3D;&quot;input-label-group__block&quot;&gt;
+					&lt;label class&#x3D;&quot;input-label-group__label&quot;&gt;
+            This is a Label
+          &lt;/label&gt;
+					&lt;textarea class&#x3D;&quot;form__textarea input-label-group__input contact-form__textarea&quot; placeholder&#x3D;&quot;This is a textarea?&quot; type&#x3D;&quot;paragraph&quot;&gt;&lt;/textarea&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/form&gt;
 	&lt;/section&gt;
 &lt;/div&gt;</code></pre>
 </div>

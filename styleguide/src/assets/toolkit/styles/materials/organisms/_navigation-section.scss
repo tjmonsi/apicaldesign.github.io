@@ -22,11 +22,17 @@
     display: none;
   }
 
-
-
-  @include media(850px) {
+  @include media(1250px) {
     padding: 0 24px;
 
+
+
+    &__header-logo {
+      display: none;
+    }
+  }
+
+  @include media(920px) {
     &__button {
       display: none;
     }

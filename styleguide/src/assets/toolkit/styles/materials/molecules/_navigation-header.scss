@@ -1,7 +1,5 @@
 .navigation-header {
-  @include media(850px) {
-    padding: 0 24px;
-
+  @include media(920px) {
     &__block {
       display: none;
     }
