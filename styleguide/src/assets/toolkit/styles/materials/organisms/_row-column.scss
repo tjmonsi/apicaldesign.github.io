@@ -1,12 +1,15 @@
 .row {
   &__block {
     @include layout-horizontal;
-    @include layout-center;
     @include layout-wrap;
 
     @include media {
       display: block;
     }
+  }
+
+  &__center {
+    @include layout-center;
   }
 
 }
