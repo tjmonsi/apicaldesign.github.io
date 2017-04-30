@@ -11,7 +11,6 @@
   &__center {
     @include layout-center;
   }
-
 }
 
 .column {
@@ -51,5 +50,11 @@
     @include media {
       margin-top: 10px;
     }
+  }
+}
+
+.vertical {
+  &__block {
+    @include layout-vertical;
   }
 }

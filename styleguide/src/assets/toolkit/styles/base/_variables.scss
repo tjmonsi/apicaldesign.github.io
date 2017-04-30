@@ -82,6 +82,13 @@ $menu-width: 14rem;
   flex-direction: row;
 }
 
+@mixin layout-vertical {
+  @include layout;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
 @mixin layout-flex {
   -ms-flex: 1 1 0.000000001px;
   -webkit-flex: 1;
