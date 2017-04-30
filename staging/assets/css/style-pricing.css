@@ -395,8 +395,18 @@
     text-align: center;
   }
 
+  .whatsincluded-content > .icon {
+    background-image: url(../img/icons/whatsincluded.svg);
+    height: 400px;
+    width: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
   .whatsincluded-content-left {
-    height: 320px; /*delete*/
+    height: 400px; /*delete*/
   }
 
   .whatsincluded-content-right {
@@ -464,11 +474,21 @@
   }
 
   .whositfor-content-right {
-    height: 320px; /*delete*/
+    height: 400px; /*delete*/
   }
 
   .whositfor-content-left > .heading:after {
     margin-left: 0;
+  }
+
+  .whositfor-content > .icon {
+    background-image: url(../img/icons/whatsincluded.svg);
+    height: 400px;
+    width: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
 
   .whositfor-list {
@@ -1068,12 +1088,28 @@
       display: block;
     }
 
+    .hero-content {
+      width: 100%;
+    }
+
+    .whatsincluded-section > .container {
+      padding: 24px;
+    }
+
+    .whositfor-section > .container {
+      padding: 160px 24px;
+    }
+
+    .uxplan-section > .container {
+      padding: 48px 24px;
+    }
+
     .whatsincluded-content,
     .whositfor-content {
       -webkit-box-flex: 0;
           -ms-flex: 0 1 100%;
               flex: 0 1 100%;
-      margin: 0 0 24px;
+      margin: 0 0 80px;
     }
 
     .uxplan-content > .row > .column {
