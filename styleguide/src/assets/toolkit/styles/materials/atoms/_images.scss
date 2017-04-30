@@ -1,0 +1,51 @@
+.hero-section {
+  &__background-image {
+    background-image: url(../../toolkit/images/stock/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    z-index: -8;
+    height: 100%;
+  }
+
+  &__logo {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.header {
+  &__logo {
+    padding: 10px 0px 10px;
+  }
+
+  &__logo-image {
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: -60%;
+  }
+
+  &__logo-text {
+    font-size: 30px;
+    letter-spacing: 2px;
+    @include font-nunito;
+    font-weight: 100;
+    color: map-get($colors, light);
+  }
+}
+
+.section {
+  &__image {
+    width: 100%;
+    background-color: #efefef;
+  }
+
+  &__icon {
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin: 0 auto 32px;
+  }
+}

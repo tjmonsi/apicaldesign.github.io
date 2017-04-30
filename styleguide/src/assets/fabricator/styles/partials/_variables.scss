@@ -1,0 +1,31 @@
+$base-colors: (
+	primary: #0D2132,
+  primary-light: #0D2132,
+	secondary: #70B3B8,
+  secondary-light: #7DC9CF,
+  accent: #B70303,
+  light: #ffffff,
+  light-fade: #efefef,
+  gray: rgb(221, 221, 221)
+);
+
+$colors: $base-colors;
+
+$menu-width: 14rem;
+
+// mixins
+@mixin clearfix {
+	&:after {
+		clear: both;
+	}
+
+	&:before,
+	&:after {
+		display: table;
+		content: ' ';
+	}
+}
+
+@mixin border-box {
+	box-sizing: border-box;
+}

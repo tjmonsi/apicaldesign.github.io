@@ -1,0 +1,116 @@
+$base-colors: (
+	primary: #0D2132,
+  primary-faded: rgba(13,33,50,0.7),
+	secondary: #70B3B8,
+  secondary-light: #7DC9CF,
+  accent: #B70303,
+  light: #ffffff,
+  light-fade: #efefef,
+  gray: rgb(221, 221, 221)
+);
+
+$colors: $base-colors;
+
+$menu-width: 14rem;
+
+// mixins
+@mixin clearfix {
+	&:after {
+		clear: both;
+	}
+
+	&:before,
+	&:after {
+		display: table;
+		content: ' ';
+	}
+}
+
+@mixin border-box {
+	box-sizing: border-box;
+}
+
+@mixin flex-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flex-1 {
+  -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+
+@mixin flex-0($percent: auto) {
+  -webkit-box-flex: 0;
+        -ms-flex: 0 1 $percent;
+            flex: 0 1 $percent;
+}
+
+@mixin flex-vertical {
+  -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+@mixin font-karla {
+  font-family: 'Karla', sans-serif;
+}
+
+@mixin font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@mixin layout {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin layout-horizontal {
+  @include layout;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+@mixin layout-vertical {
+  @include layout;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+@mixin layout-flex {
+  -ms-flex: 1 1 0.000000001px;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 0.000000001px;
+  flex-basis: 0.000000001px;
+}
+
+@mixin layout-wrap {
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@mixin layout-center {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@mixin media($max-width: 640px) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
+}

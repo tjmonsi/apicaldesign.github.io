@@ -1,0 +1,15 @@
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.primary-font {
+  @include font-karla;
+}
+
+.secondary-font {
+  @include font-nunito;
+}
