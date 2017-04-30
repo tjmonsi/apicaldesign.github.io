@@ -612,12 +612,14 @@
 
   .uxplan-info > .price {
     font-size: 76px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
     color: #70B3B8;
   }
 
   .uxplan-info > .price > span {
     font-size: 16px;
+    font-weight: 300;
     margin-top: 8px;
     display: block;
     text-decoration: line-through;
